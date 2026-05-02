@@ -4,9 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&family=Suez+One&display=swap" rel="stylesheet">
-<link rel="icon" type="image/png" href="ruth-shai-logo.png">
-<link rel="apple-touch-icon" href="ruth-shai-logo.png">
-<title>רות ושי בן אליהו – מחלוצי ההתיישבות בערבה</title>
+<title>רות ושי בן אליהו – חלוצי הערבה</title>
 <style>
 /* ===== Reset & Variables ===== */
 *, *::before, *::after {
@@ -1646,15 +1644,35 @@ footer::after {
 
 <!-- Loading Screen -->
 <div class="loader" id="loader">
-  <img src="ruth-shai-logo.png" alt="רות ושי בן אליהו" width="120" height="120">
+  <svg width="80" height="80" viewBox="0 0 140 140">
+    <circle cx="70" cy="70" r="68" fill="#1a0e04"/>
+    <circle cx="70" cy="70" r="68" fill="none" stroke="#b8902a" stroke-width="2"/>
+    <g stroke="#b8902a" stroke-width="1.6" opacity="0.75">
+      <line x1="70" y1="10" x2="70" y2="3"/><line x1="94" y1="18" x2="99" y2="12"/>
+      <line x1="109" y1="42" x2="116" y2="38"/><line x1="115" y1="68" x2="123" y2="68"/>
+      <line x1="46" y1="18" x2="41" y2="12"/><line x1="31" y1="42" x2="24" y2="38"/>
+      <line x1="25" y1="68" x2="17" y2="68"/>
+    </g>
+    <circle cx="70" cy="64" r="20" fill="#b8902a"/>
+    <polygon points="14,118 42,68 70,92 98,60 126,118" fill="#3d2510"/>
+    <rect x="12" y="116" width="116" height="5" rx="2.5" fill="#8b3a1a"/>
+    <path d="M60,48 Q69,41 78,45 Q85,38 91,43 Q87,50 78,52 Q73,57 69,54 Z" fill="#f5efe0" opacity="0.95"/>
+  </svg>
   <div class="loader-text">רות ושי בן אליהו</div>
 </div>
 
 <!-- Top Navbar -->
 <nav class="navbar on-hero-top" id="navbar">
   <div class="nav-logo" onclick="showPage('home')">
-    <img src="ruth-shai-logo.png" alt="רות ושי בן אליהו" width="36" height="36" style="flex-shrink:0;border-radius:50%;">
-    <div class="nav-logo-text"><b>רות ושי בן אליהו</b><span>מחלוצי ההתיישבות בערבה</span></div>
+    <svg width="32" height="32" viewBox="0 0 140 140" style="flex-shrink:0">
+      <circle cx="70" cy="70" r="68" fill="#1a0e04"/>
+      <circle cx="70" cy="70" r="68" fill="none" stroke="#b8902a" stroke-width="1.5"/>
+      <circle cx="70" cy="64" r="20" fill="#b8902a"/>
+      <polygon points="14,118 42,68 70,92 98,60 126,118" fill="#3d2510"/>
+      <rect x="12" y="116" width="116" height="5" rx="2.5" fill="#8b3a1a"/>
+      <path d="M60,48 Q69,41 78,45 Q85,38 91,43 Q87,50 78,52 Q73,57 69,54 Z" fill="#f5efe0" opacity="0.92"/>
+    </svg>
+    <div class="nav-logo-text"><b>רות ושי בן אליהו</b><span>חלוצי הערבה</span></div>
   </div>
 
   <div class="nav-links" id="navLinks">
@@ -1696,12 +1714,24 @@ footer::after {
   <div class="hero">
     <div class="hero-stars" id="heroStars"></div>
 
-    <img class="hero-logo" src="ruth-shai-logo.png" alt="רות ושי בן אליהו" width="160" height="160">
-    <h1>רות ו<span>שי בן אליהו</span><br>מחלוצי ההתיישבות בערבה</h1>
+    <svg class="hero-logo" width="100" height="100" viewBox="0 0 140 140">
+      <circle cx="70" cy="70" r="68" fill="#1a0e04"/>
+      <circle cx="70" cy="70" r="68" fill="none" stroke="#b8902a" stroke-width="2"/>
+      <g stroke="#b8902a" stroke-width="1.6" opacity="0.75">
+        <line x1="70" y1="10" x2="70" y2="3"/><line x1="94" y1="18" x2="99" y2="12"/>
+        <line x1="109" y1="42" x2="116" y2="38"/><line x1="115" y1="68" x2="123" y2="68"/>
+        <line x1="46" y1="18" x2="41" y2="12"/><line x1="31" y1="42" x2="24" y2="38"/>
+        <line x1="25" y1="68" x2="17" y2="68"/>
+      </g>
+      <circle cx="70" cy="64" r="20" fill="#b8902a"/>
+      <polygon points="14,118 42,68 70,92 98,60 126,118" fill="#3d2510"/>
+      <rect x="12" y="116" width="116" height="5" rx="2.5" fill="#8b3a1a"/>
+      <path d="M60,48 Q69,41 78,45 Q85,38 91,43 Q87,50 78,52 Q73,57 69,54 Z" fill="#f5efe0" opacity="0.95"/>
+    </svg>
+    <h1>רות ו<span>שי בן אליהו</span><br>חלוצי הערבה</h1>
     <div class="hero-sub">ממייסדי הערבה התיכונה</div>
     <div class="hero-dates">שי: 1935 – 2010 &nbsp;&middot;&nbsp; רות: 1938 – 2025</div>
-    <p class="hero-tag">"יחד להפוך מדבר לארץ נושבת, לקיים יחסי שכנות טובים, לצקת תכנים לשלום ולשגשוג לכולנו."</p>
-    <div class="hero-tag-author">— שי בן אליהו</div>
+    <p class="hero-tag">"היית עמוד האש שלפני המחנה, ובעיניך האחת השכלת לראות למרחוק את הדברים שאחרים אינם רואים בשתים."</p>
     <div class="cards">
       <div class="hcard" onclick="showPage('story')"><div class="hcard-ic">&#127797;</div><div class="hcard-t">הסיפור</div><div class="hcard-s">החלום שהפך למציאות</div></div>
       <div class="hcard" onclick="showPage('timeline')"><div class="hcard-ic">&#128197;</div><div class="hcard-t">ציר זמן</div><div class="hcard-s">1935 – 2025</div></div>
@@ -1917,7 +1947,7 @@ footer::after {
             <label>הודעה</label>
             <textarea placeholder="כתבו את ההודעה שלכם כאן..." required></textarea>
           </div>
-          <button type="submit" class="form-submit">&#9992;&#65039; שלח/י הודעה</button>
+          <button type="submit" class="form-submit">&#10148; שליחה</button>
         </form>
       </div>
 
@@ -1925,16 +1955,22 @@ footer::after {
         <div class="ci-box reveal">
           <div class="ci-box-icon">&#128205;</div>
           <h4>כתובת</h4>
-          <p>מושב עין יהב<br>ערבה תיכונה, ד.נ. ערבה<br>מיקוד 8682000</p>
+          <p>מושב עין יהב<br>ערבה תיכונה, ד.נ. חבל אילות<br>מיקוד 8682000</p>
         </div>
         <div class="ci-box reveal">
           <div class="ci-box-icon">&#128231;</div>
-          <h4>דו"אל: <a href="mailto:helloombee@gmail.com">info@ben-eliyahu.co.il</a></h4>
+          <h4>דואר אלקטרוני</h4>
+          <p><a href="mailto:info@ben-eliahu.co.il">info@ben-eliahu.co.il</a></p>
         </div>
         <div class="ci-box reveal">
           <div class="ci-box-icon">&#128172;</div>
           <h4>שתפו זיכרון</h4>
           <p>הכרתם את רות או שי? יש לכם סיפור, תמונה או מסמך שתרצו לשתף? נשמח מאוד לשמוע ולהוסיף למורשת.</p>
+        </div>
+        <div class="ci-box reveal">
+          <div class="ci-box-icon">&#128106;</div>
+          <h4>המשפחה</h4>
+          <p>האתר מנוהל ע"י משפחת בן אליהו – דודו, הדס ורותם וצאצאיהם. ממשיכים את המורשת.</p>
         </div>
       </div>
 
@@ -1951,46 +1987,45 @@ footer::after {
 <footer>
   <div class="footer-inner">
 
-    <h3 class="footer-section-title">מפת האתר</h3>
+    <svg class="footer-logo" width="50" height="50" viewBox="0 0 140 140">
+      <circle cx="70" cy="70" r="68" fill="#1a0e04"/>
+      <circle cx="70" cy="70" r="68" fill="none" stroke="#b8902a" stroke-width="1.5" opacity="0.4"/>
+      <circle cx="70" cy="64" r="20" fill="#b8902a" opacity="0.5"/>
+      <polygon points="14,118 42,68 70,92 98,60 126,118" fill="#3d2510" opacity="0.5"/>
+      <rect x="12" y="116" width="116" height="5" rx="2.5" fill="#8b3a1a" opacity="0.4"/>
+      <path d="M60,48 Q69,41 78,45 Q85,38 91,43 Q87,50 78,52 Q73,57 69,54 Z" fill="#f5efe0" opacity="0.5"/>
+    </svg>
 
-    <div class="footer-top">
+    <div class="footer-title">לזכרם הנצחי של רות ושי בן אליהו ז"ל</div>
+    <div class="footer-subtitle">חלוצי הערבה &middot; ממייסדי מושב עין יהב &middot; מקדמי השלום</div>
 
-      <div class="footer-col footer-brand">
-        <img class="footer-logo" src="ruth-shai-logo.png" alt="רות ושי בן אליהו" width="90" height="90">
-        <div class="footer-title">לזכרם הנצחי של<br>רות ושי בן אליהו ז"ל</div>
-        <div class="footer-subtitle">מחלוצי ההתיישבות בערבה<br>ממייסדי מושב עין יהב &middot; מקדמי השלום</div>
-      </div>
+    <div class="footer-links">
+      <a onclick="showPage('story')">הסיפור</a>
+      <a onclick="showPage('timeline')">ציר זמן</a>
+      <a onclick="showPage('peace')">שלום</a>
+      <a onclick="showPage('documents')">מסמכים</a>
+      <a onclick="showPage('testimonials')">עדויות</a>
+      <a onclick="showPage('press')">עיתונות</a>
+      <a onclick="showPage('quotes')">משפטי שי</a>
+      <a onclick="showPage('gallery')">תמונות</a>
+      <a onclick="showPage('contact')" style="color:var(--teal2)">יצירת קשר</a>
+    </div>
 
-      <div class="footer-col footer-nav-col">
-        <ul class="footer-nav-list">
-          <li><a onclick="showPage('story')">הסיפור</a></li>
-          <li><a onclick="showPage('timeline')">ציר זמן</a></li>
-          <li><a onclick="showPage('peace')">שלום עם ירדן 1994</a></li>
-          <li><a onclick="showPage('documents')">מסמכים</a></li>
-          <li><a onclick="showPage('testimonials')">עדויות</a></li>
-          <li><a onclick="showPage('press')">עיתונות</a></li>
-          <li><a onclick="showPage('quotes')">משפטי שי</a></li>
-          <li><a onclick="showPage('gallery')">תמונות</a></li>
-          <li><a onclick="showPage('contact')">יצירת קשר</a></li>
-        </ul>
-      </div>
+    <div class="footer-sep"></div>
 
-      <div class="footer-col footer-contact-col">
-        <h4 class="footer-h">יצירת קשר</h4>
-        <ul class="footer-contact-list">
-          <li><span class="fi-icon">&#9993;</span><a href="mailto:helloombee@gmail.com">info@ben-eliyahu.co.il</a></li>
-          <li><span class="fi-icon">&#127797;</span>מושב עין יהב, ערבה תיכונה</li>
-          <li><span class="fi-icon">&#128197;</span>נוסד 1959</li>
-        </ul>
-      </div>
+    <div class="footer-quote">"יחד להפוך מדבר לארץ נושבת, לקיים יחסי שכנות טובים, לצקת תכנים לשלום ולשגשוג לכולנו."</div>
+    <div class="footer-quote-author">— שי בן אליהו</div>
 
+    <div class="footer-info">
+      <div class="footer-info-item"><span class="fi-icon">&#127797;</span> מושב עין יהב, ערבה תיכונה</div>
+      <div class="footer-info-item"><span class="fi-icon">&#128197;</span> נוסד 1959</div>
+      <div class="footer-info-item"><span class="fi-icon">&#128330;&#65039;</span> שלום עם ירדן 1994</div>
     </div>
 
     <div class="footer-bottom">
-      <div class="footer-credits">
-        <p class="credit-rights">&copy; כל הזכויות שמורות למשפחת בן אליהו 1960–2026</p>
-        <p class="credit-design"><a href="https://ombee.co.il" target="_blank">עיצוב ובנייה ע"י <img src="ombee-Logo.png" alt="OMBee Graphic Design And UI/UX" class="ombee-logo"></a></p>
-      </div>
+      <div class="footer-ornament">&#10022; &middot; &#10022; &middot; &#10022;</div>
+      <p>&copy; כל הזכויות שמורות למשפחת בן אליהו 1960–2026</p>
+      <p style="margin-top:0.4rem; font-size:0.62rem;"><a href="https://ombee.co.il" target="_blank" style="color:var(--gold-light); text-decoration:none;">עיצוב ובנייה ע"י <span style="font-weight:700;">OMBee</span> Graphic Design And UI/UX</a></p>
     </div>
 
   </div>
