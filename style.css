@@ -1279,10 +1279,11 @@ body {
 
 /* ===== Footer ===== */
 footer {
-  background: linear-gradient(160deg, #4a5520, #3a2c18 50%, #2a2010);
+  background: #fff;
   padding: 0;
   position: relative;
   overflow: hidden;
+  border-top: 1px solid rgba(44, 26, 10, 0.1);
 }
 
 footer::before {
@@ -1291,8 +1292,8 @@ footer::before {
   top: 0;
   left: 0;
   right: 0;
-  height: 3px;
-  background: linear-gradient(90deg, var(--rust), var(--gold), var(--rust));
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
 }
 
 footer::after {
@@ -1321,7 +1322,7 @@ footer::after {
 .footer-section-title {
   font-family: 'Suez One', serif;
   font-size: 1.5rem;
-  color: #f5efe0;
+  color: var(--dark);
   text-align: center;
   margin: 0 auto 2.2rem;
   padding-bottom: 0.9rem;
@@ -1371,20 +1372,20 @@ footer::after {
 .footer-logo {
   margin-bottom: 1.2rem;
   opacity: 1;
-  box-shadow: 0 0 30px rgba(212, 170, 58, 0.25);
+  box-shadow: 0 0 30px rgba(184, 144, 42, 0.18);
 }
 
 .footer-title {
   font-family: 'Suez One', serif;
   font-size: 1.25rem;
-  color: #f5efe0;
+  color: var(--dark);
   margin-bottom: 0.5rem;
   line-height: 1.4;
   letter-spacing: 0.02em;
 }
 
 .footer-subtitle {
-  color: #d4c89a;
+  color: var(--mid);
   font-size: 0.85rem;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -1393,7 +1394,7 @@ footer::after {
 .footer-h {
   font-family: 'Suez One', serif;
   font-size: 1.1rem;
-  color: #f5efe0;
+  color: var(--dark);
   margin-bottom: 1.2rem;
   padding-bottom: 0.6rem;
   position: relative;
@@ -1463,18 +1464,18 @@ footer::after {
 }
 
 .footer-nav-list a:hover {
-  color: #f5efe0;
+  color: var(--gold);
 }
 
 .footer-nav-list a:hover::before {
   opacity: 1;
   transform: translateY(-50%) scale(1.5);
-  background: #f5efe0;
+  background: var(--gold);
 }
 
 .footer-nav-list a,
 .footer-contact-list a {
-  color: #ebe1c6;
+  color: var(--dark);
   font-size: 0.85rem;
   font-weight: 500;
   text-decoration: none;
@@ -1529,7 +1530,7 @@ footer::after {
   justify-content: center;
   align-items: center;
   gap: 0.6rem;
-  color: #d4c89a;
+  color: var(--mid);
   font-size: 0.85rem;
   line-height: 1.6;
 }
@@ -1552,7 +1553,7 @@ footer::after {
   width: 100%;
   margin: 1rem 0 2rem;
   padding-top: 1.5rem;
-  border-top: 1px solid rgba(212, 170, 58, 0.15);
+  border-top: 1px solid rgba(44, 26, 10, 0.1);
 }
 
 .footer-sep {
@@ -1566,7 +1567,7 @@ footer::after {
 .footer-quote {
   font-family: 'Suez One', serif;
   font-style: italic;
-  color: #e8dcb4;
+  color: var(--dark);
   font-size: 0.95rem;
   max-width: 560px;
   text-align: center;
@@ -1575,7 +1576,7 @@ footer::after {
 }
 
 .footer-quote-author {
-  color: #d4aa3a;
+  color: var(--gold);
   font-size: 0.82rem;
   font-weight: 600;
   letter-spacing: 0.05em;
@@ -1584,11 +1585,11 @@ footer::after {
 .footer-bottom {
   width: 100%;
   padding-top: 1.2rem;
-  border-top: 1px solid rgba(212, 170, 58, 0.18);
+  border-top: 1px solid rgba(44, 26, 10, 0.1);
 }
 
 .footer-bottom p {
-  color: #c4b88a;
+  color: var(--mid);
   font-size: 0.75rem;
   line-height: 1.8;
 }
