@@ -1,0 +1,14 @@
+window.galleryPhotos = [
+  { file: "ein-yahav-aerial.jpg", caption: "צילום אוויר – מושב עין יהב והחממות" },
+  { file: "moshav-historic.jpg", caption: "המושב בראשית ימיו – תמונה היסטורית" },
+  { file: "historic-2.jpg", caption: "השלט בכניסה לארץ הקיץ הנצחית" },
+  { file: "vegetable-hanukkiah.jpg", caption: "חנוכייה מירקות הערבה" },
+  { file: "fawn.jpg", caption: "עופר בחצר הבית" },
+  { file: "historic-4.jpg", caption: "עופר ערבה צעיר" },
+  { file: "arava-stream-flood.jpg", caption: "שיטפון בנחל ערבה – אדם במים השוצפים" },
+  { file: "flood-1.jpg", caption: "רכב שנתקע בבוץ לאחר שיטפון" },
+  { file: "flood-2.jpg", caption: "חילוץ רכב מהבוץ באמצעות טרקטור" },
+  { file: "flood-3.jpg", caption: "חילוץ רכב לאחר השיטפון" },
+  { file: "historic-1.jpg", caption: "טקס זיכרון משפחתי" },
+  { file: "historic-3.jpg", caption: "כינוס משפחתי באתר הזיכרון" }
+];

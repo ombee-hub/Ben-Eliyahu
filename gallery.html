@@ -54,20 +54,19 @@
     <div class="photog reveal-stagger" id="galleryGrid"></div>
   </div>
 
+  <script src="images/gallery/gallery-data.js"></script>
   <script>
-    fetch('images/gallery/gallery.json?v=' + Date.now())
-      .then(function(r){ return r.json(); })
-      .then(function(data){
-        var grid = document.getElementById('galleryGrid');
-        if (!grid || !data.photos) return;
-        grid.innerHTML = data.photos.map(function(p){
-          var media = p.file
-            ? '<img src="images/gallery/' + encodeURIComponent(p.file) + '" alt="' + (p.caption || '') + '" loading="lazy">'
-            : '<div class="phic">&#128247;</div>';
-          return '<div class="phi visible"><div class="php">' + media + '</div><div class="phc">' + (p.caption || '') + '</div></div>';
-        }).join('');
-      })
-      .catch(function(){});
+    (function(){
+      var photos = window.galleryPhotos || [];
+      var grid = document.getElementById('galleryGrid');
+      if (!grid || !photos.length) return;
+      grid.innerHTML = photos.map(function(p){
+        var media = p.file
+          ? '<img src="images/gallery/' + encodeURIComponent(p.file) + '" alt="' + (p.caption || '') + '" loading="lazy">'
+          : '<div class="phic">&#128247;</div>';
+        return '<div class="phi visible"><div class="php">' + media + '</div><div class="phc">' + (p.caption || '') + '</div></div>';
+      }).join('');
+    })();
   </script>
 
 <footer>
