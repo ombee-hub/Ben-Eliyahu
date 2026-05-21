@@ -1589,22 +1589,22 @@ footer::after {
   font-size: 1.1rem;
   color: var(--dark);
   margin-bottom: 1.2rem;
-  padding-bottom: 0.6rem;
-  position: relative;
   letter-spacing: 0.04em;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.9rem;
+  width: 100%;
 }
 
+.footer-h::before,
 .footer-h::after {
   content: '';
-  position: absolute;
-  right: 50%;
-  bottom: 0;
-  width: 50px;
-  height: 2px;
+  flex: 1;
+  max-width: 70px;
+  height: 1px;
   background: linear-gradient(90deg, transparent, #d4aa3a, transparent);
   border-radius: 2px;
-  transform: translateX(50%);
 }
 
 .footer-nav-list,
@@ -1704,13 +1704,7 @@ footer::after {
 }
 
 .footer-contact-col .footer-h {
-  text-align: center;
   align-self: center;
-}
-
-.footer-contact-col .footer-h::after {
-  right: 50%;
-  transform: translateX(50%);
 }
 
 .footer-contact-list {
@@ -1855,9 +1849,6 @@ footer::after {
     align-items: center;
     text-align: center;
   }
-  .footer-h {
-    text-align: right;
-  }
 }
 
 @media (max-width: 600px) {
@@ -1889,12 +1880,7 @@ footer::after {
     align-self: flex-start;
   }
   .footer-h {
-    text-align: center;
     align-self: center;
-  }
-  .footer-h::after {
-    right: 50%;
-    transform: translateX(50%);
   }
   .footer-credits {
     flex-direction: column;
