@@ -62,9 +62,9 @@
         if (!grid || !data.photos) return;
         grid.innerHTML = data.photos.map(function(p){
           var media = p.file
-            ? '<img src="images/gallery/' + p.file + '" alt="' + (p.caption || '') + '" loading="lazy">'
+            ? '<img src="images/gallery/' + encodeURIComponent(p.file) + '" alt="' + (p.caption || '') + '" loading="lazy">'
             : '<div class="phic">&#128247;</div>';
-          return '<div class="phi reveal"><div class="php">' + media + '</div><div class="phc">' + (p.caption || '') + '</div></div>';
+          return '<div class="phi visible"><div class="php">' + media + '</div><div class="phc">' + (p.caption || '') + '</div></div>';
         }).join('');
       })
       .catch(function(){});
