@@ -768,18 +768,7 @@ body {
 }
 
 .hero-tag::before,
-.hero-tag::after {
-  content: '\2726';
-  color: var(--gold);
-  opacity: 0.4;
-  font-size: 0.7rem;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.hero-tag::before { right: 0; }
-.hero-tag::after { left: 0; }
+.hero-tag::after { display: none; }
 
 @keyframes heroFade {
   from { opacity: 0; transform: translateY(12px); }
