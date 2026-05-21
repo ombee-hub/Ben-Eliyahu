@@ -2123,16 +2123,8 @@ footer::after {
 
   .nav-logo svg,
   .nav-logo img {
-    width: 30px;
-    height: 30px;
-  }
-
-  .nav-logo-text b {
-    font-size: 0.8rem;
-  }
-
-  .nav-logo-text span {
-    font-size: 0.58rem;
+    width: 46px;
+    height: 46px;
   }
 }
 
