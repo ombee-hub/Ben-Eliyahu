@@ -31,7 +31,7 @@
   --shadow-lg: 0 8px 40px rgba(44, 26, 10, 0.15);
   --shadow-card: 0 2px 12px rgba(44, 26, 10, 0.07), 0 0 0 1px rgba(184, 144, 42, 0.06);
   --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  --nav-h: 64px;
+  --nav-h: 84px;
 }
 
 /* ===== Loading Screen ===== */
@@ -2123,8 +2123,8 @@ footer::after {
 
   .nav-logo svg,
   .nav-logo img {
-    width: 46px;
-    height: 46px;
+    width: 60px;
+    height: 60px;
   }
 }
 
