@@ -1963,10 +1963,11 @@ footer::after {
   border-radius: var(--radius);
   padding: 1.3rem;
   transition: all var(--transition);
-  display: grid;
-  grid-template-columns: auto 1fr;
-  align-items: start;
-  gap: 0.4rem 0.9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
 }
 
 .ci-box:hover {
@@ -1975,24 +1976,20 @@ footer::after {
 }
 
 .ci-box-icon {
-  font-size: 1.6rem;
-  grid-row: span 2;
-  align-self: center;
+  font-size: 1.8rem;
 }
 
 .ci-box h4 {
-  font-size: 0.95rem;
+  font-size: 0.98rem;
   color: var(--dark);
   margin: 0;
-  align-self: center;
 }
 
 .ci-box p {
-  font-size: 0.82rem;
+  font-size: 0.85rem;
   color: var(--mid);
   line-height: 1.7;
   margin: 0;
-  grid-column: 2;
 }
 
 .ci-box a {
