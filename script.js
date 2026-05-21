@@ -27,6 +27,75 @@ if (loader) {
   }
 })();
 
+// ===== Hero Carousel =====
+(function() {
+  var carousel = document.getElementById('heroCarousel');
+  if (!carousel) return;
+  var slides = carousel.querySelectorAll('.hero-slide');
+  if (slides.length === 0) return;
+
+  var dotsContainer = document.getElementById('carouselDots');
+  var prevBtn = document.getElementById('carouselPrev');
+  var nextBtn = document.getElementById('carouselNext');
+  var current = 0;
+  var autoTimer = null;
+  var AUTO_INTERVAL = 6000;
+
+  if (slides.length > 1) {
+    carousel.classList.add('multi');
+  }
+
+  if (dotsContainer) {
+    for (var i = 0; i < slides.length; i++) {
+      var dot = document.createElement('button');
+      dot.className = 'carousel-dot' + (i === 0 ? ' active' : '');
+      dot.setAttribute('aria-label', 'שקופית ' + (i + 1));
+      dot.setAttribute('data-index', i);
+      dot.addEventListener('click', function(e) {
+        goTo(parseInt(e.currentTarget.getAttribute('data-index')));
+      });
+      dotsContainer.appendChild(dot);
+    }
+  }
+
+  function goTo(index) {
+    if (index < 0) index = slides.length - 1;
+    if (index >= slides.length) index = 0;
+    slides[current].classList.remove('active');
+    slides[index].classList.add('active');
+    if (dotsContainer) {
+      var dots = dotsContainer.querySelectorAll('.carousel-dot');
+      dots[current] && dots[current].classList.remove('active');
+      dots[index] && dots[index].classList.add('active');
+    }
+    current = index;
+    restartAuto();
+  }
+
+  function next() { goTo(current + 1); }
+  function prev() { goTo(current - 1); }
+
+  function startAuto() {
+    if (slides.length <= 1) return;
+    autoTimer = setInterval(next, AUTO_INTERVAL);
+  }
+  function stopAuto() {
+    if (autoTimer) { clearInterval(autoTimer); autoTimer = null; }
+  }
+  function restartAuto() {
+    stopAuto();
+    startAuto();
+  }
+
+  if (prevBtn) prevBtn.addEventListener('click', prev);
+  if (nextBtn) nextBtn.addEventListener('click', next);
+
+  carousel.addEventListener('mouseenter', stopAuto);
+  carousel.addEventListener('mouseleave', startAuto);
+
+  startAuto();
+})();
+
 // ===== Animated Counters =====
 var countersAnimated = false;
 function animateCounters() {
