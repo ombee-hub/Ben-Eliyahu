@@ -51,16 +51,24 @@
 
   <div class="ph"><h2>גלריית תמונות</h2><p>תמונות היסטוריות מחייהם של רות ושי</p></div>
   <div class="pc">
-    <div class="photog reveal-stagger">
-      <div class="phi reveal"><div class="php"><div class="phic">&#128247;</div></div><div class="phc">שי עם ראש הממשלה גולדה מאיר – שנות ה-60</div></div>
-      <div class="phi reveal"><div class="php"><div class="phic">&#128247;</div></div><div class="phc">שי בנוכחות הילארי קלינטון וממשלת ירדן</div></div>
-      <div class="phi reveal"><div class="php"><div class="phic">&#128247;</div></div><div class="phc">שי וחגי פורת – שני מייסדי עין יהב</div></div>
-      <div class="phi reveal"><div class="php"><div class="phic">&#128247;</div></div><div class="phc">שי מקבל תעודת הוקרה – טקס רשמי</div></div>
-      <div class="phi reveal"><div class="php"><div class="phic">&#128247;</div></div><div class="phc">שי עם דוד בן גוריון – ביקור בעין יהב</div></div>
-      <div class="phi reveal"><div class="php"><div class="phic">&#128247;</div></div><div class="phc">שי מדריך את בן גוריון בסיור בשטח</div></div>
-      <div class="phi reveal"><div class="php"><div class="phic">&#128247;</div></div><div class="phc">שי לוחץ יד לראש הממשלה אריאל שרון</div></div>
-    </div>
+    <div class="photog reveal-stagger" id="galleryGrid"></div>
   </div>
+
+  <script>
+    fetch('images/gallery/gallery.json?v=' + Date.now())
+      .then(function(r){ return r.json(); })
+      .then(function(data){
+        var grid = document.getElementById('galleryGrid');
+        if (!grid || !data.photos) return;
+        grid.innerHTML = data.photos.map(function(p){
+          var media = p.file
+            ? '<img src="images/gallery/' + p.file + '" alt="' + (p.caption || '') + '" loading="lazy">'
+            : '<div class="phic">&#128247;</div>';
+          return '<div class="phi reveal"><div class="php">' + media + '</div><div class="phc">' + (p.caption || '') + '</div></div>';
+        }).join('');
+      })
+      .catch(function(){});
+  </script>
 
 <footer>
   <div class="footer-inner">
