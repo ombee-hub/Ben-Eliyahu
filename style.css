@@ -6,25 +6,27 @@
 }
 
 :root {
-  --sand: #f5efe0;
-  --sand2: #ebe1c6;
-  --sand3: #d9c9a0;
-  --rust: #8b6f47;
-  --rust2: #a88555;
-  --gold: #b8902a;
-  --gold-light: #d4aa3a;
+  /* Palette derived from the Arava hero photo: warm sand, soft sky, muted olive */
+  --sand: #f3ead8;
+  --sand2: #e6d4b0;
+  --sand3: #c89878;
+  --rust: #9a7350;
+  --rust2: #b88a5c;
+  --gold: #c89858;
+  --gold-light: #dbb478;
   --dark: #2a2010;
   --dark2: #3a2c18;
   --mid: #6b5230;
-  --light: #faf6ea;
+  --light: #faf5e6;
   --teal: #1a6b5a;
   --teal2: #2a9a7a;
-  --sky: #2a5c8a;
-  --olive: #6b7a3a;
-  --olive-deep: #4a5520;
-  --olive-dark: #2f3a18;
+  --sky: #7a9cb8;
+  --sky-light: #b8d0e0;
+  --olive: #788a55;
+  --olive-deep: #5a6a35;
+  --olive-dark: #3a4520;
   --umber: #5a4828;
-  --terracotta: #b87545;
+  --terracotta: #b8754a;
   --radius: 14px;
   --shadow-sm: 0 2px 8px rgba(44, 26, 10, 0.06);
   --shadow-md: 0 4px 20px rgba(44, 26, 10, 0.1);
