@@ -1995,7 +1995,7 @@ footer::after {
 }
 
 .form-submit {
-  background: linear-gradient(135deg, var(--teal), var(--teal2));
+  background: linear-gradient(135deg, var(--gold), var(--gold-light));
   color: #fff;
   border: none;
   padding: 0.75rem 2rem;
@@ -2009,9 +2009,9 @@ footer::after {
 }
 
 .form-submit:hover {
-  background: linear-gradient(135deg, #1a7a66, #30b08a);
+  background: linear-gradient(135deg, var(--rust), var(--gold));
   transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(26, 107, 90, 0.3);
+  box-shadow: 0 4px 15px rgba(184, 144, 42, 0.35);
 }
 
 .contact-info-card {
@@ -2060,14 +2060,14 @@ footer::after {
 }
 
 .ci-box a {
-  color: var(--teal);
+  color: var(--gold);
   text-decoration: none;
   font-weight: 600;
   transition: color var(--transition);
 }
 
 .ci-box a:hover {
-  color: var(--teal2);
+  color: var(--gold-light);
 }
 
 .contact-map {
