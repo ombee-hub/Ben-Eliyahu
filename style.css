@@ -1323,24 +1323,23 @@ footer::after {
   font-family: 'Suez One', serif;
   font-size: 1.5rem;
   color: var(--dark);
-  text-align: center;
   margin: 0 auto 2.2rem;
-  padding-bottom: 0.9rem;
-  position: relative;
   letter-spacing: 0.05em;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
 }
 
+.footer-section-title::before,
 .footer-section-title::after {
   content: '';
-  position: absolute;
-  right: 50%;
-  bottom: 0;
-  width: 90px;
-  height: 2px;
+  flex: 1;
+  max-width: 120px;
+  height: 1px;
   background: linear-gradient(90deg, transparent, #d4aa3a, transparent);
   border-radius: 2px;
-  transform: translateX(50%);
 }
 
 .footer-top {
@@ -1372,7 +1371,10 @@ footer::after {
 .footer-logo {
   margin-bottom: 1.2rem;
   opacity: 1;
-  box-shadow: 0 0 30px rgba(184, 144, 42, 0.18);
+  border-radius: 50%;
+  border: 2px solid rgba(184, 144, 42, 0.35);
+  box-shadow: 0 4px 16px rgba(44, 26, 10, 0.12);
+  background: #f5efe0;
 }
 
 .footer-title {
