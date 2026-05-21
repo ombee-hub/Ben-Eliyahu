@@ -62,26 +62,38 @@
 <div class="page active" id="page-home">
   <div class="hero">
     <div class="hero-carousel" id="heroCarousel">
-      <div class="hero-slide active" data-bg="images/Arava.jpg">
-        <div class="hero-slide-bg" style="background-image:url('images/Arava.jpg')"></div>
-        <div class="hero-slide-content">
-          <h1>רות ו<span>שי בן אליהו</span><br>מחלוצי ההתיישבות בערבה</h1>
-          <div class="hero-sub">ממייסדי הערבה התיכונה</div>
-          <div class="hero-dates">שי: 1935 – 2010 &nbsp;&middot;&nbsp; רות: 1938 – 2025</div>
-          <p class="hero-tag">"יחד להפוך מדבר לארץ נושבת, לקיים יחסי שכנות טובים, לצקת תכנים לשלום ולשגשוג לכולנו."</p>
-          <div class="hero-tag-author">— שי בן אליהו</div>
-          <div class="hero-cta-group">
-            <a href="story.html" class="hero-cta hero-cta-primary">קרא/י את הסיפור</a>
-            <a href="timeline.html" class="hero-cta hero-cta-secondary">ציר הזמן</a>
-          </div>
-        </div>
-      </div>
       <button class="carousel-btn carousel-prev" id="carouselPrev" aria-label="הקודם">&#10094;</button>
       <button class="carousel-btn carousel-next" id="carouselNext" aria-label="הבא">&#10095;</button>
       <div class="carousel-dots" id="carouselDots"></div>
     </div>
-    <div class="hero-stars" id="heroStars"></div>
   </div>
+
+  <script src="images/hero/hero-data.js"></script>
+  <script>
+    (function(){
+      var slides = window.heroSlides || [];
+      var carousel = document.getElementById('heroCarousel');
+      if (!carousel || !slides.length) return;
+      var html = slides.map(function(s, i){
+        var img = s.image.indexOf('/') === -1 ? 'images/hero/' + s.image : 'images/' + s.image.replace(/^\.\.\//, '');
+        var cta1 = s.cta1 ? '<a href="' + s.cta1.href + '" class="hero-cta hero-cta-primary">' + s.cta1.text + '</a>' : '';
+        var cta2 = s.cta2 ? '<a href="' + s.cta2.href + '" class="hero-cta hero-cta-secondary">' + s.cta2.text + '</a>' : '';
+        return '<div class="hero-slide' + (i === 0 ? ' active' : '') + '">'
+          + '<div class="hero-slide-bg" style="background-image:url(\'' + img + '\')"></div>'
+          + '<div class="hero-slide-content">'
+            + (s.title ? '<h1>' + s.title + '</h1>' : '')
+            + (s.sub ? '<div class="hero-sub">' + s.sub + '</div>' : '')
+            + (s.dates ? '<div class="hero-dates">' + s.dates + '</div>' : '')
+            + (s.quote ? '<p class="hero-tag">' + s.quote + '</p>' : '')
+            + (s.author ? '<div class="hero-tag-author">' + s.author + '</div>' : '')
+            + (cta1 || cta2 ? '<div class="hero-cta-group">' + cta1 + cta2 + '</div>' : '')
+          + '</div>'
+        + '</div>';
+      }).join('');
+      var prevBtn = document.getElementById('carouselPrev');
+      prevBtn.insertAdjacentHTML('beforebegin', html);
+    })();
+  </script>
 </div>
 
 <!-- Footer -->
