@@ -443,6 +443,40 @@ body {
   overflow: hidden;
 }
 
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.hero-bg-slide {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: heroKenBurns 20s ease-in-out infinite alternate;
+}
+
+.hero-bg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0.35) 40%, rgba(44,26,10,0.45) 100%);
+  z-index: 1;
+}
+
+@keyframes heroKenBurns {
+  0% { transform: scale(1) translate(0, 0); }
+  100% { transform: scale(1.12) translate(-1.5%, -1%); }
+}
+
+.hero > *:not(.hero-bg) {
+  position: relative;
+  z-index: 2;
+}
+
 .hero-stars {
   position: absolute;
   inset: 0;
@@ -534,7 +568,7 @@ body {
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 0.6rem;
-  text-shadow: 0 1px 0 rgba(255,255,255,0.5), 0 2px 20px rgba(245, 239, 224, 0.6);
+  text-shadow: 0 2px 6px rgba(255,255,255,0.85), 0 0 30px rgba(255,255,255,0.7);
   animation: heroTitle 1s ease-out;
 }
 
