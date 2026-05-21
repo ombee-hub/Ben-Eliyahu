@@ -718,7 +718,7 @@ body {
 
 .hero h1 {
   font-family: 'Suez One', serif;
-  font-size: clamp(2.2rem, 4.5vw, 3.5rem);
+  font-size: clamp(1.85rem, 5vw, 3.5rem);
   color: #2f3a18;
   font-weight: 700;
   line-height: 1.2;
@@ -2141,7 +2141,6 @@ footer::after {
   .ph { padding: calc(var(--nav-h) + 1.5rem) 1.2rem 1.5rem; }
   .ph h2 { font-size: 1.6rem; }
   .hero { padding: calc(var(--nav-h) + 2rem) 1.2rem 3rem; }
-  .hero h1 { font-size: 1.8rem; }
   .hero-logo { width: 75px; height: 75px; }
   .cards { grid-template-columns: repeat(2, 1fr); gap: 0.7rem; }
   .stats-bar { grid-template-columns: repeat(2, 1fr); }
