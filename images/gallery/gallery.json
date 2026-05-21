@@ -1,16 +1,16 @@
 {
   "photos": [
-    { "file": "צילום אוויר עין יהב2.jpg", "caption": "צילום אוויר – מושב עין יהב" },
-    { "file": "תמונת המושבוץ 001.jpg", "caption": "תמונה היסטורית של המושב" },
-    { "file": "חנוכיית ירקות.jpg", "caption": "חנוכייה מירקות הערבה" },
-    { "file": "עופר.jpg", "caption": "עופר" },
-    { "file": "שטפון בנחל ערבה.jpg", "caption": "שיטפון בנחל ערבה" },
-    { "file": "שיטפון.jpg", "caption": "שיטפון בערבה" },
-    { "file": "שיטפון 2.jpg", "caption": "שיטפון בערבה" },
-    { "file": "שיטפון 3.jpg", "caption": "שיטפון בערבה" },
-    { "file": "37520025.jpg", "caption": "תמונה היסטורית" },
-    { "file": "DSCN5361.jpg", "caption": "תמונה היסטורית" },
-    { "file": "IMG_0233.jpg", "caption": "תמונה היסטורית" },
-    { "file": "IMG_8777.jpg", "caption": "תמונה היסטורית" }
+    { "file": "ein-yahav-aerial.jpg", "caption": "צילום אוויר – מושב עין יהב והחממות" },
+    { "file": "moshav-historic.jpg", "caption": "המושב בראשית ימיו – תמונה היסטורית" },
+    { "file": "historic-2.jpg", "caption": "השלט בכניסה לארץ הקיץ הנצחית" },
+    { "file": "vegetable-hanukkiah.jpg", "caption": "חנוכייה מירקות הערבה" },
+    { "file": "fawn.jpg", "caption": "עופר בחצר הבית" },
+    { "file": "historic-4.jpg", "caption": "עופר ערבה צעיר" },
+    { "file": "arava-stream-flood.jpg", "caption": "שיטפון בנחל ערבה – אדם במים השוצפים" },
+    { "file": "flood-1.jpg", "caption": "רכב שנתקע בבוץ לאחר שיטפון" },
+    { "file": "flood-2.jpg", "caption": "חילוץ רכב מהבוץ באמצעות טרקטור" },
+    { "file": "flood-3.jpg", "caption": "חילוץ רכב לאחר השיטפון" },
+    { "file": "historic-1.jpg", "caption": "טקס זיכרון משפחתי" },
+    { "file": "historic-3.jpg", "caption": "כינוס משפחתי באתר הזיכרון" }
   ]
 }
