@@ -458,7 +458,7 @@ body {
   transition: opacity 1.2s ease-in-out, visibility 1.2s;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .hero-slide.active {
@@ -479,7 +479,7 @@ body {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0.35) 40%, rgba(44,26,10,0.45) 100%);
+  background: linear-gradient(270deg, rgba(255,255,255,0.88) 0%, rgba(255,255,255,0.72) 35%, rgba(255,255,255,0.45) 65%, rgba(255,255,255,0.25) 100%);
 }
 
 .hero-slide-content {
@@ -487,11 +487,13 @@ body {
   z-index: 2;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding: calc(var(--nav-h) + 2rem) 2rem 2rem;
-  max-width: 900px;
-  width: 100%;
+  align-items: flex-start;
+  text-align: right;
+  padding: calc(var(--nav-h) + 2rem) 3rem 2rem 2rem;
+  max-width: 600px;
+  width: auto;
+  margin-left: auto;
+  margin-right: 0;
 }
 
 @keyframes heroKenBurns {
@@ -503,7 +505,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 0.8rem;
-  justify-content: center;
+  justify-content: flex-end;
   margin-top: 0.5rem;
   animation: heroFade 1s ease-out 0.6s both;
 }
