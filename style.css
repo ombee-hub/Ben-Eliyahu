@@ -1631,30 +1631,6 @@ footer::after {
   font-size: 0.9rem;
 }
 
-.footer-nav-list a::before {
-  content: '';
-  position: absolute;
-  right: 0;
-  top: 50%;
-  width: 5px;
-  height: 5px;
-  background: #d4aa3a;
-  border-radius: 50%;
-  opacity: 0.55;
-  transform: translateY(-50%);
-  transition: opacity var(--transition), transform var(--transition), background var(--transition);
-}
-
-.footer-nav-list a:hover {
-  color: var(--gold);
-}
-
-.footer-nav-list a:hover::before {
-  opacity: 1;
-  transform: translateY(-50%) scale(1.5);
-  background: var(--gold);
-}
-
 .footer-nav-list a,
 .footer-contact-list a {
   color: var(--dark);
@@ -1662,29 +1638,14 @@ footer::after {
   font-weight: 500;
   text-decoration: none;
   cursor: pointer;
-  transition: color var(--transition), padding-right var(--transition);
+  transition: color var(--transition);
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  position: relative;
-}
-
-.footer-nav-list a::before {
-  content: '\203A';
-  color: #d4aa3a;
-  opacity: 0;
-  transform: translateX(6px);
-  transition: opacity var(--transition), transform var(--transition);
-  font-weight: 700;
 }
 
 .footer-nav-list a:hover {
-  color: #d4aa3a;
-}
-
-.footer-nav-list a:hover::before {
-  opacity: 1;
-  transform: translateX(0);
+  color: var(--gold);
 }
 
 .footer-contact-col {
