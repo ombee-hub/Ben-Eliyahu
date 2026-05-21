@@ -8,24 +8,7 @@ if (loader) {
   });
 }
 
-// ===== Stars =====
-(function() {
-  var c = document.getElementById('heroStars');
-  if (!c) return;
-  for (var i = 0; i < 50; i++) {
-    var s = document.createElement('div');
-    s.className = 'star';
-    s.style.left = Math.random() * 100 + '%';
-    s.style.top = Math.random() * 80 + '%';
-    s.style.setProperty('--dur', (2 + Math.random() * 4) + 's');
-    s.style.setProperty('--delay', (Math.random() * 5) + 's');
-    s.style.setProperty('--brightness', (0.4 + Math.random() * 0.6).toString());
-    var size = (1 + Math.random() * 2) + 'px';
-    s.style.width = size;
-    s.style.height = size;
-    c.appendChild(s);
-  }
-})();
+// ===== Stars (disabled) =====
 
 // ===== Hero Carousel =====
 (function() {
