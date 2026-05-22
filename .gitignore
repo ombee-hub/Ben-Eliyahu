@@ -1,3 +1,6 @@
 .claude/
 Thumbs.db
 .DS_Store
+
+# Site deployment archives (regenerated, not source)
+*.zip
