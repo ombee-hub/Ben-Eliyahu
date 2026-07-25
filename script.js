@@ -4,11 +4,9 @@ if (loader) {
   window.addEventListener('load', function() {
     setTimeout(function() {
       loader.classList.add('hidden');
-    }, 1200);
+    }, 300);
   });
 }
-
-// ===== Stars (disabled) =====
 
 // ===== Hero Carousel =====
 (function() {
@@ -79,38 +77,6 @@ if (loader) {
   startAuto();
 })();
 
-// ===== Animated Counters =====
-var countersAnimated = false;
-function animateCounters() {
-  if (countersAnimated) return;
-  countersAnimated = true;
-  document.querySelectorAll('.stat-num[data-target]').forEach(function(el) {
-    var target = parseInt(el.getAttribute('data-target'));
-    var duration = 1500;
-    var startTime = null;
-    function step(ts) {
-      if (!startTime) startTime = ts;
-      var p = Math.min((ts - startTime) / duration, 1);
-      var eased = 1 - Math.pow(1 - p, 3);
-      el.textContent = Math.floor(eased * target);
-      if (p < 1) {
-        requestAnimationFrame(step);
-      } else {
-        el.textContent = target === 1 ? '1' : target + '+';
-      }
-    }
-    requestAnimationFrame(step);
-  });
-}
-
-var sb = document.querySelector('.stats-bar');
-if (sb) {
-  var sObs = new IntersectionObserver(function(e) {
-    if (e[0].isIntersecting) { animateCounters(); sObs.disconnect(); }
-  }, { threshold: 0.5 });
-  sObs.observe(sb);
-}
-
 // ===== Navbar scroll effect =====
 var navbar = document.getElementById('navbar');
 var heroEl = document.querySelector('.hero');
@@ -132,7 +98,7 @@ function updateNavbar() {
   }
 }
 
-window.addEventListener('scroll', updateNavbar);
+window.addEventListener('scroll', updateNavbar, { passive: true });
 updateNavbar();
 
 // ===== Active nav link =====
@@ -153,7 +119,10 @@ updateNavbar();
   var id = map[path];
   if (id) {
     var n = document.getElementById('nav-' + id);
-    if (n) n.classList.add('active');
+    if (n) {
+      n.classList.add('active');
+      n.setAttribute('aria-current', 'page');
+    }
   }
 })();
 
@@ -179,6 +148,7 @@ function toggleMobile() {
   if (h) h.classList.toggle('open');
   if (m) m.classList.toggle('open');
   var isOpen = m && m.classList.contains('open');
+  if (h) h.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
   if (o) o.classList.toggle('open', isOpen);
   document.body.style.overflow = isOpen ? 'hidden' : '';
 }
@@ -203,14 +173,100 @@ function observeReveals() {
   reveals.forEach(function(el) { obs.observe(el); });
 }
 
-// ===== Back to Top =====
-window.addEventListener('scroll', function() {
-  var btn = document.getElementById('backToTop');
-  if (btn) btn.classList.toggle('show', window.scrollY > 400);
-});
-
 // ===== Init =====
 document.addEventListener('DOMContentLoaded', observeReveals);
+
+// ===== Copyright year =====
+document.addEventListener('DOMContentLoaded', function() {
+  var el = document.querySelector('.credit-rights');
+  if (el) el.innerHTML = el.innerHTML.replace(/–\d{4}/, '–' + new Date().getFullYear());
+});
+
+// ===== Gallery Lightbox =====
+(function() {
+  function init() {
+    var grid = document.getElementById('galleryGrid');
+    if (!grid) return;
+    var items = Array.prototype.slice.call(grid.querySelectorAll('.phi'));
+    if (!items.length) return;
+
+    var current = 0;
+    var overlay = document.createElement('div');
+    overlay.className = 'lightbox';
+    overlay.setAttribute('role', 'dialog');
+    overlay.setAttribute('aria-modal', 'true');
+    overlay.setAttribute('aria-label', 'תצוגת תמונה מוגדלת');
+    overlay.innerHTML =
+      '<button type="button" class="lb-close" aria-label="סגירה">&times;</button>' +
+      '<button type="button" class="lb-prev" aria-label="התמונה הקודמת">&#10094;</button>' +
+      '<button type="button" class="lb-next" aria-label="התמונה הבאה">&#10095;</button>' +
+      '<figure class="lb-figure"><img class="lb-img" alt=""><figcaption class="lb-caption"></figcaption></figure>';
+    document.body.appendChild(overlay);
+
+    var lbImg = overlay.querySelector('.lb-img');
+    var lbCaption = overlay.querySelector('.lb-caption');
+    var lastFocused = null;
+
+    function show(index) {
+      if (index < 0) index = items.length - 1;
+      if (index >= items.length) index = 0;
+      current = index;
+      var img = items[current].querySelector('.php img');
+      var cap = items[current].querySelector('.phc');
+      if (!img) return;
+      lbImg.src = img.src;
+      lbImg.alt = img.alt || '';
+      lbCaption.textContent = cap ? cap.textContent : '';
+    }
+
+    function open(index) {
+      lastFocused = document.activeElement;
+      show(index);
+      overlay.classList.add('open');
+      document.body.style.overflow = 'hidden';
+      overlay.querySelector('.lb-close').focus();
+    }
+
+    function close() {
+      overlay.classList.remove('open');
+      document.body.style.overflow = '';
+      if (lastFocused) lastFocused.focus();
+    }
+
+    overlay.querySelector('.lb-close').addEventListener('click', close);
+    overlay.querySelector('.lb-prev').addEventListener('click', function() { show(current - 1); });
+    overlay.querySelector('.lb-next').addEventListener('click', function() { show(current + 1); });
+    overlay.addEventListener('click', function(e) {
+      if (e.target === overlay) close();
+    });
+
+    document.addEventListener('keydown', function(e) {
+      if (!overlay.classList.contains('open')) return;
+      if (e.key === 'Escape') close();
+      else if (e.key === 'ArrowRight') show(current - 1);
+      else if (e.key === 'ArrowLeft') show(current + 1);
+    });
+
+    grid.addEventListener('click', function(e) {
+      var item = e.target.closest ? e.target.closest('.phi') : null;
+      if (item && item.querySelector('.php img')) open(items.indexOf(item));
+    });
+    grid.addEventListener('keydown', function(e) {
+      if (e.key !== 'Enter' && e.key !== ' ') return;
+      var item = e.target.closest ? e.target.closest('.phi') : null;
+      if (item && item.querySelector('.php img')) {
+        e.preventDefault();
+        open(items.indexOf(item));
+      }
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
 
 // ===== Accessibility Widget =====
 (function() {

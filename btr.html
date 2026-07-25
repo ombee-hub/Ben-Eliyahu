@@ -3,13 +3,25 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+<meta name="description" content="פרויקט BTR – Bridging The Rift: חזונו של שי בן אליהו למרכז אקדמי ישראלי-ירדני בערבה.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="רותי ושי בן אליהו">
+<meta property="og:title" content="פרויקט BTR – Bridging The Rift – רותי ושי בן אליהו">
+<meta property="og:description" content="פרויקט BTR – Bridging The Rift: חזונו של שי בן אליהו למרכז אקדמי ישראלי-ירדני בערבה.">
+<meta property="og:image" content="https://ombee.co.il/ben-eliyahu/images/Arava.jpg">
+<meta property="og:url" content="https://ombee.co.il/ben-eliyahu/btr.html">
+<meta property="og:locale" content="he_IL">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <link rel="icon" type="image/png" href="images/ruth-shai-logo.png">
 <link rel="apple-touch-icon" href="images/ruth-shai-logo.png">
 <title>פרויקט BTR – Bridging The Rift – רותי ושי בן אליהו</title>
 </head>
 <body>
+
+<a class="skip-link" href="#main">דילוג לתוכן הראשי</a>
 
 <div class="loader" id="loader">
   <img src="images/ruth-shai-logo.png" alt="רותי ושי בן אליהו" width="120" height="120">
@@ -33,7 +45,7 @@
     <a href="gallery.html" id="nav-gallery">תמונות</a>
     <a href="contact.html" id="nav-contact" class="nav-contact">יצירת קשר <svg class="ico-plane" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block;vertical-align:-0.2em;margin-inline:0.25em"><path d="M2 2 L13 13"/><path d="M2 2 L9 22 L13 13 L22 9 Z"/></svg></a>
   </div>
-  <button class="hamburger" id="hamburger" onclick="toggleMobile()" aria-label="תפריט">
+  <button class="hamburger" id="hamburger" onclick="toggleMobile()" aria-label="תפריט" aria-expanded="false" aria-controls="mobileMenu">
     <span></span><span></span><span></span>
   </button>
 </nav>
@@ -52,9 +64,9 @@
 <div class="menu-footer">לזכרם של רותי ושי בן אליהו ז"ל</div>
 </div>
 
-<button class="back-to-top" id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="חזרה למעלה">&#8593;</button>
 
-  <div class="ph"><h2>פרויקט BTR – Bridging The Rift</h2><p>"גישור על הבקע" – חזונו של שי בן אליהו לשלום בערבה</p></div>
+<main id="main">
+  <div class="ph"><h1>פרויקט BTR – Bridging The Rift</h1><p>"גישור על הבקע" – חזונו של שי בן אליהו לשלום בערבה</p></div>
   <div class="pc">
 
     <div class="ic2 reveal">
@@ -130,6 +142,8 @@
 
   </div>
 
+</main>
+
 <footer>
   <div class="footer-inner">
     <h3 class="footer-section-title">מפת האתר</h3>
@@ -148,21 +162,22 @@
           <li><a href="story.html">הסיפור</a></li>
           <li><a href="timeline.html">ציר זמן</a></li>
           <li><a href="peace.html">שלום עם ירדן 1994</a></li>
+          <li><a href="btr.html">פרויקט BTR</a></li>
           <li><a href="documents.html">מסמכים</a></li>
           <li><a href="testimonials.html">עדויות</a></li>
           <li><a href="press.html">עיתונות</a></li>
           <li><a href="quotes.html">משפטי שי</a></li>
           <li><a href="gallery.html">תמונות</a></li>
           <li><a href="contact.html">יצירת קשר</a></li>
-          <li><a href="accessibility.html">נגישות</a></li>
-          <li><a href="privacy.html">פרטיות</a></li>
+          <li><a href="accessibility.html">הצהרת נגישות</a></li>
+          <li><a href="privacy.html">מדיניות פרטיות</a></li>
         </ul>
       </div>
 
       <div class="footer-col footer-contact-col">
         <h4 class="footer-h">יצירת קשר</h4>
         <ul class="footer-contact-list">
-          <li><span class="fi-icon"><svg class="ico-plane" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block;vertical-align:-0.2em;margin-inline:0.25em"><path d="M2 2 L13 13"/><path d="M2 2 L9 22 L13 13 L22 9 Z"/></svg></span><a href="mailto:helloombee@gmail.com">info@ben-eliyahu.co.il</a></li>
+          <li><span class="fi-icon"><svg class="ico-plane" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block;vertical-align:-0.2em;margin-inline:0.25em"><path d="M2 2 L13 13"/><path d="M2 2 L9 22 L13 13 L22 9 Z"/></svg></span><a href="mailto:helloombee@gmail.com">helloombee@gmail.com</a></li>
           <li><span class="fi-icon">&#127797;</span>מושב עין יהב, ערבה תיכונה</li>
         </ul>
       </div>
@@ -172,7 +187,7 @@
     <div class="footer-bottom">
       <div class="footer-credits">
         <p class="credit-rights">&copy; כל הזכויות שמורות למשפחת בן אליהו 1960–2026</p>
-        <p class="credit-design"><a href="https://ombee.co.il" target="_blank">עיצוב ובנייה ע"י <img src="images/ombee-Logo.png" alt="OMBee Graphic Design And UI/UX" class="ombee-logo"></a></p>
+        <p class="credit-design"><a href="https://ombee.co.il" target="_blank" rel="noopener noreferrer">עיצוב ובנייה ע"י <img src="images/ombee-Logo.png" alt="OMBee Graphic Design And UI/UX" class="ombee-logo"></a></p>
       </div>
     </div>
   </div>

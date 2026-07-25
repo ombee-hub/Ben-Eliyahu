@@ -3,13 +3,25 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+<meta name="description" content="הצהרת הנגישות של אתר ההנצחה לרותי ושי בן אליהו.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="רותי ושי בן אליהו">
+<meta property="og:title" content="הצהרת נגישות – רותי ושי בן אליהו">
+<meta property="og:description" content="הצהרת הנגישות של אתר ההנצחה לרותי ושי בן אליהו.">
+<meta property="og:image" content="https://ombee.co.il/ben-eliyahu/images/Arava.jpg">
+<meta property="og:url" content="https://ombee.co.il/ben-eliyahu/accessibility.html">
+<meta property="og:locale" content="he_IL">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <link rel="icon" type="image/png" href="images/ruth-shai-logo.png">
 <link rel="apple-touch-icon" href="images/ruth-shai-logo.png">
 <title>הצהרת נגישות – רותי ושי בן אליהו</title>
 </head>
 <body>
+
+<a class="skip-link" href="#main">דילוג לתוכן הראשי</a>
 
 <div class="loader" id="loader">
   <img src="images/ruth-shai-logo.png" alt="רותי ושי בן אליהו" width="120" height="120">
@@ -33,7 +45,7 @@
     <a href="gallery.html" id="nav-gallery">תמונות</a>
     <a href="contact.html" id="nav-contact" class="nav-contact">יצירת קשר <svg class="ico-plane" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block;vertical-align:-0.2em;margin-inline:0.25em"><path d="M2 2 L13 13"/><path d="M2 2 L9 22 L13 13 L22 9 Z"/></svg></a>
   </div>
-  <button class="hamburger" id="hamburger" onclick="toggleMobile()" aria-label="תפריט"><span></span><span></span><span></span></button>
+  <button class="hamburger" id="hamburger" onclick="toggleMobile()" aria-label="תפריט" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span><span></span></button>
 </nav>
 <div class="mobile-menu" id="mobileMenu">
   <a href="story.html"><span class="ic">&#127797;</span>הסיפור</a>
@@ -48,10 +60,10 @@
   
 <div class="menu-footer">לזכרם של רותי ושי בן אליהו ז"ל</div>
 </div>
-<button class="back-to-top" id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="חזרה למעלה">&#8593;</button>
 
-  <div class="ph" style="background: linear-gradient(135deg, #0f2a22, #1a4035)">
-    <h2 style="color: var(--teal2)">הצהרת נגישות</h2>
+<main id="main">
+  <div class="ph">
+    <h1>הצהרת נגישות</h1>
     <p>אנו מחויבים להנגשת האתר עבור כלל המשתמשים</p>
   </div>
 
@@ -59,69 +71,94 @@
     <div class="doc-page">
 
       <div class="doc-meta">
-        <strong>תאריך עדכון אחרון:</strong> אפריל 2026<br>
-        <strong>רמת תקינה:</strong> הצהרה זו נערכה ברוח תקן ישראלי ת"י 5568 ברמה AA ובהתאם להנחיות ה-WCAG 2.1.
+        <strong>תאריך עדכון אחרון:</strong> יולי 2026<br>
+        <strong>רמת תקינה:</strong> האתר שואף לעמידה בתקן הישראלי ת"י 5568 ("קווים מנחים לנגישות תכנים באינטרנט")
+        ברמה AA, המבוסס על הנחיות <span dir="ltr">WCAG 2.1</span> הבינלאומיות.
       </div>
 
       <h2>מחויבותנו לנגישות</h2>
       <p>
         אתר זה מוקדש לזכרם של רותי ושי בן אליהו ז"ל, מחלוצי ההתיישבות בערבה וממייסדי מושב עין יהב.
         אנו מאמינים שהמורשת המונצחת כאן צריכה להיות נגישה לכל אדם, לרבות אנשים עם מוגבלות.
-        בהתאם לכך, אנו פועלים להנגשת האתר בהתאם להוראות חוק שוויון זכויות לאנשים עם מוגבלות, התשנ"ח–1998,
+        בהתאם לכך, אנו פועלים להנגשת האתר ברוח חוק שוויון זכויות לאנשים עם מוגבלות, התשנ"ח–1998,
         ותקנות שוויון זכויות לאנשים עם מוגבלות (התאמות נגישות לשירות), התשע"ג–2013.
+        האתר הוא אתר הנצחה משפחתי פרטי, והנגשתו נעשית מתוך מחויבות ערכית לציבור המבקרים.
       </p>
 
-      <h2>אמצעי הנגישות באתר</h2>
-      <p>האתר כולל תפריט נגישות (הכפתור בצד התחתון של המסך) המאפשר למשתמשים להתאים אישית את חוויית הגלישה:</p>
+      <h2>נגישות מובנית באתר</h2>
+      <p>האתר נבנה כך שהנגישות מוטמעת בו עצמו, ללא תלות בתפריט הנגישות:</p>
+      <ul>
+        <li>מבנה עמודים סמנטי: אזור תוכן ראשי מוגדר (main), כותרת ראשית (H1) בכל עמוד והיררכיית כותרות סדורה – לתמיכה בקוראי מסך.</li>
+        <li>קישור "דילוג לתוכן הראשי" המופיע בהקשת Tab ראשונה בכל עמוד.</li>
+        <li>ניווט מלא במקלדת: תפריטים, גלריית התמונות (פתיחה ב-Enter, סגירה ב-Esc, דפדוף בחיצים) וטופס יצירת הקשר.</li>
+        <li>טקסט חלופי (alt) לכל התמונות באתר.</li>
+        <li>תוויות (label) מקושרות לכל שדות הטופס.</li>
+        <li>סימוני ARIA לרכיבים דינמיים: תפריט נייד, חלון התמונה המוגדלת ותפריט הנגישות.</li>
+        <li>כיבוד העדפת המערכת "הפחתת תנועה" (prefers-reduced-motion) – מי שהגדיר/ה זאת במערכת ההפעלה יראה/תראה את האתר ללא הנפשות.</li>
+        <li>ממשק בעברית עם תמיכה מלאה בכיוון RTL ועיצוב רספונסיבי למחשב, טאבלט וסמארטפון.</li>
+      </ul>
+
+      <h2>תפריט הנגישות</h2>
+      <p>בנוסף, בפינה השמאלית התחתונה של המסך זמין תפריט נגישות המאפשר התאמה אישית של חוויית הגלישה:</p>
       <ul>
         <li><strong>הדגשת קישורים</strong> – הבלטה חזותית של כל הקישורים בעמוד.</li>
         <li><strong>ניגודיות</strong> – מעבר בין ניגודיות רגילה, גבוהה, כהה והיפוך צבעים.</li>
         <li><strong>טקסט גדול</strong> – הגדלת גודל הגופן באתר.</li>
         <li><strong>ריווח טקסט</strong> – הוספת רווח בין אותיות ומילים.</li>
         <li><strong>גובה שורה</strong> – הרחבת המרווח בין שורות הטקסט לקריאה נוחה יותר.</li>
-        <li><strong>תמיכה בדיסלקציה</strong> – מעבר לגופן קריא יותר עבור הסובלים מדיסלקציה.</li>
+        <li><strong>תמיכה בדיסלקציה</strong> – מעבר לגופן קריא יותר.</li>
         <li><strong>הסתרת תמונות</strong> – הפחתת גירויים ויזואליים.</li>
         <li><strong>ביטול הנפשות</strong> – עצירת אנימציות ואפקטים.</li>
-        <li><strong>סמן גדול</strong> – הגדלת הסמן לשיפור נראותו.</li>
+        <li><strong>סמן גדול</strong> – הגדלת סמן העכבר לשיפור נראותו.</li>
         <li><strong>יישור טקסט</strong> – יישור לצד אחד לקריאה נוחה.</li>
         <li><strong>רוויית צבעים</strong> – התאמת עוצמת הצבעים באתר.</li>
       </ul>
-      <p>הגדרות אלו נשמרות באופן מקומי בדפדפן המשתמש ונטענות אוטומטית בביקורים חוזרים.</p>
+      <p>
+        ההגדרות נשמרות באופן מקומי בדפדפן שלכם/ן ונטענות אוטומטית בביקורים חוזרים.
+        ניתן לאפס את כולן בלחיצה אחת על "איפוס כל ההגדרות" בתחתית התפריט.
+      </p>
 
-      <h2>עקרונות נוספים של נגישות באתר</h2>
-      <ul>
-        <li>מבנה עמודים סמנטי המאפשר ניווט בקוראי מסך.</li>
-        <li>תמיכה בניווט באמצעות מקלדת (Tab, Enter, Esc).</li>
-        <li>טקסט חלופי לתמונות מרכזיות.</li>
-        <li>ניגודיות צבעים התואמת לרמת AA.</li>
-        <li>ממשק הכתוב בעברית עם תמיכה מלאה בכיוון RTL.</li>
-        <li>עיצוב רספונסיבי המותאם למחשבים, טאבלטים וסמארטפונים.</li>
-      </ul>
+      <h2>דפדפנים וטכנולוגיות מסייעות</h2>
+      <p>
+        האתר תומך בגרסאות עדכניות של הדפדפנים הנפוצים: Chrome, Edge, Firefox ו-Safari,
+        במחשב ובנייד. האתר נבדק בניווט מקלדת מלא. אם נתקלתם/ן בבעיה בשילוב עם קורא מסך
+        או טכנולוגיה מסייעת אחרת – נשמח מאוד לדעת.
+      </p>
 
       <h2>חריגים וסייגים</h2>
       <p>
-        למרות מאמצינו להנגיש כל פריט באתר, ייתכנו תכנים חלקיים שלא הונגשו באופן מלא, בייחוד:
+        למרות מאמצינו, ייתכנו תכנים שאינם נגישים באופן מלא, בעיקר בשל אופיו הארכיוני של האתר:
       </p>
       <ul>
-        <li>מסמכים סרוקים היסטוריים (כגון מכתבים, צילומי עיתונות) – אלו מסמכים מקוריים שנשמרים כלשונם ההיסטורית.</li>
-        <li>תמונות היסטוריות וארכיוניות.</li>
+        <li>מסמכים סרוקים היסטוריים (מכתבים, קטעי עיתונות) – מוצגים כצילום המקור, ואנו משתדלים לצרף להם תיאור או תמלול טקסטואלי.</li>
+        <li>תמונות היסטוריות באיכות נמוכה – מגבלה של חומרי המקור הארכיוניים.</li>
       </ul>
-      <p>אנו עושים מאמץ לספק תיאורים והסברים טקסטואליים לצד תכנים אלו.</p>
+      <p>
+        אם נתקלתם/ן בתוכן שאינו נגיש עבורכם/ן, פנו/נה אלינו ונדאג לספק את המידע בדרך חלופית מתאימה.
+      </p>
 
       <h2>פנייה בנושא נגישות</h2>
       <p>
-        נתקלתם/ן בקושי בגלישה באתר? יש לכם/ן הצעה לשיפור הנגישות? נשמח לשמוע ולטפל בכל פנייה.
+        נתקלתם/ן בקושי בגלישה באתר? יש לכם/ן הצעה לשיפור? נשמח לשמוע ולטפל בכל פנייה.
+      </p>
+      <div class="doc-meta">
+        <strong>אחראי נגישות:</strong> עמרי בן אליהו<br>
+        <strong>דוא"ל:</strong> <a href="mailto:helloombee@gmail.com">helloombee@gmail.com</a><br>
+        <strong>טלפון:</strong> <a href="tel:+972523777468"><span dir="ltr">052-377-7468</span></a><br>
+        <strong>כתובת:</strong> מושב עין יהב
+      </div>
+      <p>
+        אנא ציינו/נה בפנייה את העמוד שבו נתקלתם/ן בקושי ואת אופי הבעיה.
+        אנו מתחייבים להשיב לכל פנייה בהקדם האפשרי, ולא יאוחר מ-30 ימים ממועד קבלתה.
       </p>
       <p>
-        ניתן לפנות אלינו בעמוד <a href="contact.html">יצירת קשר</a> או בדו"אל:
-        <a href="mailto:helloombee@gmail.com">info@ben-eliyahu.co.il</a>.
-      </p>
-      <p>
-        אנו מתחייבים להתייחס לכל פנייה תוך זמן סביר ולבחון כל בקשה לשיפור הנגישות באתר.
+        לא נענו פניותיכם/ן? ניתן לפנות לנציבות שוויון זכויות לאנשים עם מוגבלות במשרד המשפטים.
       </p>
 
     </div>
   </div>
+
+</main>
 
 <footer>
   <div class="footer-inner">
@@ -141,21 +178,22 @@
           <li><a href="story.html">הסיפור</a></li>
           <li><a href="timeline.html">ציר זמן</a></li>
           <li><a href="peace.html">שלום עם ירדן 1994</a></li>
+          <li><a href="btr.html">פרויקט BTR</a></li>
           <li><a href="documents.html">מסמכים</a></li>
           <li><a href="testimonials.html">עדויות</a></li>
           <li><a href="press.html">עיתונות</a></li>
           <li><a href="quotes.html">משפטי שי</a></li>
           <li><a href="gallery.html">תמונות</a></li>
           <li><a href="contact.html">יצירת קשר</a></li>
-          <li><a href="accessibility.html">נגישות</a></li>
-          <li><a href="privacy.html">פרטיות</a></li>
+          <li><a href="accessibility.html">הצהרת נגישות</a></li>
+          <li><a href="privacy.html">מדיניות פרטיות</a></li>
         </ul>
       </div>
 
       <div class="footer-col footer-contact-col">
         <h4 class="footer-h">יצירת קשר</h4>
         <ul class="footer-contact-list">
-          <li><span class="fi-icon"><svg class="ico-plane" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block;vertical-align:-0.2em;margin-inline:0.25em"><path d="M2 2 L13 13"/><path d="M2 2 L9 22 L13 13 L22 9 Z"/></svg></span><a href="mailto:helloombee@gmail.com">info@ben-eliyahu.co.il</a></li>
+          <li><span class="fi-icon"><svg class="ico-plane" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block;vertical-align:-0.2em;margin-inline:0.25em"><path d="M2 2 L13 13"/><path d="M2 2 L9 22 L13 13 L22 9 Z"/></svg></span><a href="mailto:helloombee@gmail.com">helloombee@gmail.com</a></li>
           <li><span class="fi-icon">&#127797;</span>מושב עין יהב, ערבה תיכונה</li>
         </ul>
       </div>
@@ -165,7 +203,7 @@
     <div class="footer-bottom">
       <div class="footer-credits">
         <p class="credit-rights">&copy; כל הזכויות שמורות למשפחת בן אליהו 1960–2026</p>
-        <p class="credit-design"><a href="https://ombee.co.il" target="_blank">עיצוב ובנייה ע"י <img src="images/ombee-Logo.png" alt="OMBee Graphic Design And UI/UX" class="ombee-logo"></a></p>
+        <p class="credit-design"><a href="https://ombee.co.il" target="_blank" rel="noopener noreferrer">עיצוב ובנייה ע"י <img src="images/ombee-Logo.png" alt="OMBee Graphic Design And UI/UX" class="ombee-logo"></a></p>
       </div>
     </div>
   </div>

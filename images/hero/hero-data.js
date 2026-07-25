@@ -2,7 +2,7 @@
 // אם תרצה רק שקופית אחת - השאר רק אותה.
 window.heroSlides = [
   {
-    image: "../Arava.jpg",
+    image: "../Arava.webp",
     title: "<span>רותי ושי בן אליהו</span><br>מחלוצי ההתיישבות בערבה",
     sub: "ממייסדי הערבה התיכונה",
     dates: "שי: 1935 – 2010 &nbsp;&middot;&nbsp; רותי: 1938 – 2025",
