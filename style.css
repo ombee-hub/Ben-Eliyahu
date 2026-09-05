@@ -1987,6 +1987,18 @@ footer::after {
   .ph { padding: calc(var(--nav-h) + 1.5rem) 1.2rem 1.5rem; }
   .ph h1 { font-size: 1.6rem; }
   .hero { padding: calc(var(--nav-h) + 2rem) 1.2rem 3rem; }
+
+  /* Hero CTA buttons: full-width and centered instead of drifting left */
+  .hero-cta-group {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .hero-cta {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
   .sg, .dg, .qg, .prg { grid-template-columns: 1fr; }
   .pg { grid-template-columns: 1fr; }
   .photog { grid-template-columns: repeat(2, 1fr); }
