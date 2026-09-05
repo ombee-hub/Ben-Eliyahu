@@ -289,6 +289,46 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 })();
 
+// ===== Cookie Notice =====
+(function() {
+  var KEY = 'cookie-notice-v1';
+  try { if (localStorage.getItem(KEY)) return; } catch (e) {}
+
+  function build() {
+    var banner = document.createElement('div');
+    banner.className = 'cookie-banner';
+    banner.setAttribute('role', 'region');
+    banner.setAttribute('aria-label', 'הודעה על שימוש בעוגיות');
+    banner.innerHTML =
+      '<svg class="cookie-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
+        '<path d="M21 12a9 9 0 1 1-9.5-8.98 3.5 3.5 0 0 0 3.6 4.4 3.5 3.5 0 0 0 3.7 4.3c.73-.08 1.4-.36 1.95-.78.16.66.25 1.35.25 2.06z"/>' +
+        '<circle cx="8.5" cy="9" r="0.9" fill="currentColor" stroke="none"/>' +
+        '<circle cx="9.5" cy="14.5" r="0.9" fill="currentColor" stroke="none"/>' +
+        '<circle cx="14" cy="16.5" r="0.9" fill="currentColor" stroke="none"/>' +
+        '<circle cx="12.5" cy="11" r="0.7" fill="currentColor" stroke="none"/>' +
+      '</svg>' +
+      '<div class="cookie-text">האתר משתמש בעוגיות ובאחסון מקומי לשיפור חוויית הגלישה. למידע נוסף — <a href="privacy.html">מדיניות הפרטיות</a>.</div>' +
+      '<button type="button" class="cookie-accept">הבנתי, תודה</button>';
+    document.body.appendChild(banner);
+
+    requestAnimationFrame(function() {
+      requestAnimationFrame(function() { banner.classList.add('show'); });
+    });
+
+    banner.querySelector('.cookie-accept').addEventListener('click', function() {
+      try { localStorage.setItem(KEY, '1'); } catch (e) {}
+      banner.classList.remove('show');
+      setTimeout(function() { banner.remove(); }, 500);
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', build);
+  } else {
+    build();
+  }
+})();
+
 // ===== Accessibility Widget =====
 (function() {
   var STORAGE_KEY = 'a11y-settings-v1';
