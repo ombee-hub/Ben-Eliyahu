@@ -2293,6 +2293,20 @@ html.a11y-saturation-high { filter: saturate(1.7); }
   .a11y-panel { width: 100vw; }
 }
 
+/* ===== Story page: Shai's cards next to Ruti's biography ===== */
+.story-cols {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+@media (max-width: 1024px) {
+  .story-cols {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* ===== Biography box (story page) ===== */
 .bio-box {
   max-width: 780px;
