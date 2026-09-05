@@ -3,6 +3,7 @@
 window.heroSlides = [
   {
     image: "../Arava.webp",
+    imageMobile: "../Arava-mobile.webp",
     title: "<span>רותי ושי בן אליהו</span><br>מחלוצי ההתיישבות בערבה",
     sub: "ממייסדי הערבה התיכונה",
     dates: "שי: 1935 – 2010 &nbsp;&middot;&nbsp; רותי: 1938 – 2025",

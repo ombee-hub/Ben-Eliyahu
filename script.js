@@ -1,11 +1,18 @@
 // ===== Loading Screen =====
+// Hide once the DOM is ready instead of waiting for every image/resource —
+// window.load can take seconds on slow connections and blocks the whole page.
 var loader = document.getElementById('loader');
 if (loader) {
-  window.addEventListener('load', function() {
+  var hideLoader = function() {
     setTimeout(function() {
       loader.classList.add('hidden');
     }, 300);
-  });
+  };
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', hideLoader);
+  } else {
+    hideLoader();
+  }
 }
 
 // ===== Hero Carousel =====
@@ -161,6 +168,20 @@ document.addEventListener('keydown', function(e) {
   }
 });
 
+// Close the mobile menu automatically when the viewport switches to the
+// desktop layout (nav-links replace the hamburger above 1024px)
+(function() {
+  if (!window.matchMedia) return;
+  var desktopMq = window.matchMedia('(min-width: 1025px)');
+  function closeOnDesktop(e) {
+    if (!e.matches) return;
+    var m = document.getElementById('mobileMenu');
+    if (m && m.classList.contains('open')) toggleMobile();
+  }
+  if (desktopMq.addEventListener) desktopMq.addEventListener('change', closeOnDesktop);
+  else if (desktopMq.addListener) desktopMq.addListener(closeOnDesktop);
+})();
+
 // ===== Scroll animations =====
 function observeReveals() {
   var reveals = document.querySelectorAll('.reveal:not(.visible)');
@@ -214,7 +235,7 @@ document.addEventListener('DOMContentLoaded', function() {
       var img = items[current].querySelector('.php img');
       var cap = items[current].querySelector('.phc');
       if (!img) return;
-      lbImg.src = img.src;
+      lbImg.src = img.getAttribute('data-full') || img.src;
       lbImg.alt = img.alt || '';
       lbCaption.textContent = cap ? cap.textContent : '';
     }
