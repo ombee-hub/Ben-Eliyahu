@@ -4,3 +4,6 @@ Thumbs.db
 
 # Site deployment archives (regenerated, not source)
 *.zip
+
+# Original source video kept locally as backup (deployed copy: videos/ruti-memorial.mp4)
+/רותי בן אליהו ז_ל.mp4
