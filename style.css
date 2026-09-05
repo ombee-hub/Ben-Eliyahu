@@ -2293,87 +2293,38 @@ html.a11y-saturation-high { filter: saturate(1.7); }
   .a11y-panel { width: 100vw; }
 }
 
-/* ===== Story page: Shai's cards next to Ruti's biography ===== */
+/* ===== Story page: Shai and Ruti side-by-side card columns ===== */
 .story-cols {
   display: grid;
-  grid-template-columns: 1.5fr 1fr;
-  gap: 1.5rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
   align-items: start;
+}
+
+.story-col-h {
+  font-family: 'Assistant', sans-serif;
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--dark);
+  text-align: center;
+  margin: 0 0 0.2rem;
+}
+
+.story-col-sub {
+  font-size: 0.88rem;
+  color: var(--gold);
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1.2rem;
 }
 
 @media (max-width: 1024px) {
   .story-cols {
     grid-template-columns: 1fr;
   }
-}
-
-/* ===== Biography box (story page) ===== */
-.bio-box {
-  max-width: 780px;
-  margin: 0 auto;
-  background: #fff;
-  border: 1px solid var(--sand2);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow-card);
-  overflow: hidden;
-}
-
-.bio-header {
-  background: linear-gradient(135deg, rgba(var(--gold-rgb), 0.12), rgba(var(--gold-rgb), 0.04));
-  border-bottom: 1px solid var(--sand2);
-  padding: 1.6rem 2rem 1.3rem;
-  text-align: center;
-}
-
-.bio-header h2 {
-  font-family: 'Assistant', sans-serif;
-  font-size: 1.45rem;
-  font-weight: 800;
-  color: var(--dark);
-  margin: 0 0 0.3rem;
-}
-
-.bio-sub {
-  font-size: 0.9rem;
-  color: var(--gold);
-  font-weight: 600;
-  letter-spacing: 0.04em;
-}
-
-.bio-body {
-  padding: 1.8rem 2rem 2rem;
-}
-
-.bio-body p {
-  font-size: 0.95rem;
-  color: var(--dark);
-  line-height: 1.95;
-  margin-bottom: 1rem;
-}
-
-.bio-lead {
-  font-weight: 700;
-  font-size: 1.02rem !important;
-}
-
-.bio-tribute {
-  background: rgba(var(--gold-rgb), 0.07);
-  border-right: 3px solid var(--gold);
-  border-radius: 8px;
-  padding: 1rem 1.2rem;
-}
-
-.bio-close {
-  text-align: center;
-  font-weight: 800;
-  color: var(--gold);
-  font-size: 1.05rem !important;
-  margin-bottom: 0 !important;
-}
-
-@media (max-width: 600px) {
-  .bio-header { padding: 1.3rem 1.2rem 1.1rem; }
-  .bio-body { padding: 1.4rem 1.2rem 1.6rem; }
+  .story-col + .story-col {
+    margin-top: 2rem;
+  }
 }
 
 /* ===== Cookie Notice (homepage only, bottom-center) ===== */
