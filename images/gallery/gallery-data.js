@@ -2,6 +2,7 @@ window.galleryPhotos = [
   // המקום והנוף
   { file: "ein-yahav-aerial.webp", caption: "צילום אוויר – מושב עין יהב והחממות" },
   { file: "moshav-historic.webp", caption: "המושב בראשית ימיו – תמונה היסטורית" },
+  { file: "beit-haam-cornerstone.webp", caption: "הנחת אבן הפינה לבית העם בעין יהב" },
   { file: "historic-2.webp", caption: "השלט בכניסה לארץ הקיץ הנצחית" },
   { file: "vegetable-hanukkiah.webp", caption: "חנוכייה מירקות הערבה" },
 
