@@ -78,7 +78,7 @@
       grid.innerHTML = photos.map(function(p, i){
         var cap = p.caption || '';
         var media = p.file
-          ? '<img src="images/gallery/thumbs/' + encodeURIComponent(p.file) + '" data-full="images/gallery/' + encodeURIComponent(p.file) + '" alt="' + cap + '" loading="lazy" decoding="async">'
+          ? '<img src="images/gallery/' + encodeURIComponent(p.file) + '" alt="' + cap + '" loading="lazy" decoding="async">'
           : '<div class="phic">&#128247;</div>';
         return '<div class="phi" role="button" tabindex="0" data-index="' + i + '" aria-label="הצגה מוגדלת: ' + cap + '"><div class="php">' + media + '</div><div class="phc">' + cap + '</div></div>';
       }).join('');
