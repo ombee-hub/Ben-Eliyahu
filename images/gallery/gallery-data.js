@@ -8,7 +8,12 @@ window.galleryPhotos = [
   // עבודה וחיים בערבה
   { file: "shai-hagi-sifting.webp", caption: "שי וחגי מנערים בצלצל – עבודת המושב" },
   { file: "shai-mara-canola-field.webp", caption: "שי ומרה בשדה הקינואה" },
-  { file: "shai-outdoor-event.webp", caption: "שי באירוע במושב" },
+
+  // מפגשים היסטוריים
+  { file: "shai-rabin.webp", caption: "שי בן אליהו עם ראש הממשלה יצחק רבין" },
+  { file: "shai-rabin-tzur-1993.webp", caption: "שי עם רה\"מ יצחק רבין ושר החקלאות יעקב צור, 11.3.1993" },
+  { file: "shai-king-abdullah.webp", caption: "שי בן אליהו עם המלך עבדאללה השני" },
+  { file: "shai-hillary-abdullah-rania.webp", caption: "שי בן אליהו עם הילרי קלינטון, המלך עבדאללה והמלכה רניה" },
 
   // השיטפונות בערבה
   { file: "arava-stream-flood.webp", caption: "שיטפון בנחל ערבה – אדם במים השוצפים" },
@@ -35,7 +40,6 @@ window.galleryPhotos = [
   { file: "holland-tulip-field-2006.webp", caption: "בשדה הצבעונים בהולנד – 2006" },
   { file: "shai-michael-orhella-holland-tulips.webp", caption: "שי, מייקל ואורהלה בגן הצבעונים בהולנד" },
   { file: "amnon-orhella-michael-shai-holland.webp", caption: "אמנון, אורהלה, מייקל ושי בהולנד" },
-  { file: "michael-holland-market.webp", caption: "מייקל בשוק בהולנד" },
 
   // טבע
   { file: "fawn.webp", caption: "עופר בחצר הבית" },
