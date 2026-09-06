@@ -1383,11 +1383,10 @@ button, input, select, textarea {
 
 /* ===== Footer ===== */
 footer {
-  background: #fff;
+  background: linear-gradient(180deg, var(--dark2) 0%, var(--dark) 100%);
   padding: 0;
   position: relative;
   overflow: hidden;
-  border-top: 1px solid rgba(44, 26, 10, 0.1);
 }
 
 footer::before {
@@ -1396,8 +1395,8 @@ footer::before {
   top: 0;
   left: 0;
   right: 0;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  height: 3px;
+  background: linear-gradient(90deg, transparent, var(--gold), var(--gold-light), var(--gold), transparent);
 }
 
 footer::after {
@@ -1408,8 +1407,8 @@ footer::after {
   right: 0;
   top: 0;
   background:
-    radial-gradient(circle at 20% 80%, rgba(var(--gold-rgb), 0.04) 0%, transparent 50%),
-    radial-gradient(circle at 80% 20%, rgba(139, 58, 26, 0.03) 0%, transparent 50%);
+    radial-gradient(circle at 15% 85%, rgba(var(--gold-rgb), 0.08) 0%, transparent 45%),
+    radial-gradient(circle at 85% 15%, rgba(var(--gold-rgb), 0.06) 0%, transparent 45%);
   pointer-events: none;
 }
 
@@ -1426,7 +1425,7 @@ footer::after {
 .footer-section-title {
   font-family: 'Assistant', sans-serif;
   font-size: 1.5rem;
-  color: var(--dark);
+  color: var(--light);
   margin: 0 auto 2.2rem;
   letter-spacing: 0.05em;
   width: 100%;
@@ -1471,22 +1470,23 @@ footer::after {
   margin-bottom: 1.2rem;
   opacity: 1;
   border-radius: 50%;
-  border: 2px solid rgba(var(--gold-rgb), 0.35);
-  box-shadow: 0 4px 16px rgba(44, 26, 10, 0.12);
+  border: 2px solid rgba(var(--gold-rgb), 0.55);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35), 0 0 0 6px rgba(var(--gold-rgb), 0.08);
   background: #f5efe0;
 }
 
 .footer-title {
   font-family: 'Assistant', sans-serif;
   font-size: 1.25rem;
-  color: var(--dark);
+  color: var(--light);
+  font-weight: 700;
   margin-bottom: 0.5rem;
   line-height: 1.4;
   letter-spacing: 0.02em;
 }
 
 .footer-subtitle {
-  color: var(--mid);
+  color: rgba(250, 245, 230, 0.6);
   font-size: 0.85rem;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -1495,7 +1495,7 @@ footer::after {
 .footer-h {
   font-family: 'Assistant', sans-serif;
   font-size: 1.1rem;
-  color: var(--dark);
+  color: var(--gold-light);
   margin-bottom: 1.2rem;
   letter-spacing: 0.04em;
   display: flex;
@@ -1550,9 +1550,27 @@ footer::after {
   font-size: 0.9rem;
 }
 
+.footer-nav-list a::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+  width: 5px;
+  height: 5px;
+  background: var(--gold);
+  opacity: 0.45;
+  transition: opacity var(--transition), transform var(--transition);
+}
+
+.footer-nav-list a:hover::before {
+  opacity: 1;
+  transform: translateY(-50%) rotate(225deg);
+}
+
 .footer-nav-list a,
 .footer-contact-list a {
-  color: var(--dark);
+  color: rgba(250, 245, 230, 0.78);
   font-size: 0.85rem;
   font-weight: 500;
   text-decoration: none;
@@ -1564,7 +1582,7 @@ footer::after {
 }
 
 .footer-nav-list a:hover {
-  color: var(--gold);
+  color: var(--gold-light);
 }
 
 .footer-contact-col {
@@ -1586,7 +1604,7 @@ footer::after {
   justify-content: center;
   align-items: center;
   gap: 0.6rem;
-  color: var(--mid);
+  color: rgba(250, 245, 230, 0.6);
   font-size: 0.85rem;
   line-height: 1.6;
 }
@@ -1599,17 +1617,17 @@ footer::after {
 }
 
 .footer-contact-list a:hover {
-  color: var(--gold);
+  color: var(--gold-light);
 }
 
 .footer-bottom {
   width: 100%;
   padding-top: 1.2rem;
-  border-top: 1px solid rgba(44, 26, 10, 0.1);
+  border-top: 1px solid rgba(250, 245, 230, 0.12);
 }
 
 .footer-bottom p {
-  color: var(--mid);
+  color: rgba(250, 245, 230, 0.45);
   font-size: 0.75rem;
   line-height: 1.8;
 }
@@ -1640,7 +1658,7 @@ footer::after {
 }
 
 .footer-credits .credit-design a {
-  color: var(--mid);
+  color: rgba(250, 245, 230, 0.55);
   text-decoration: none;
   transition: color var(--transition);
   display: inline-flex;
@@ -1654,10 +1672,12 @@ footer::after {
 }
 
 .ombee-logo {
-  height: 26px;
+  height: 28px;
   width: auto;
   vertical-align: middle;
-  filter: brightness(1.05);
+  background: rgba(250, 245, 230, 0.95);
+  padding: 4px 9px;
+  border-radius: 7px;
   transition: filter var(--transition), transform var(--transition);
   display: inline-block;
 }
