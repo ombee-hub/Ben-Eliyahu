@@ -1526,17 +1526,21 @@ footer::after {
 }
 
 .footer-nav-col {
-  align-items: flex-start;
+  align-items: center;
   text-align: right;
+}
+
+.footer-nav-col .footer-h {
+  align-self: center;
 }
 
 .footer-nav-list {
   display: grid;
   grid-template-columns: auto auto;
-  grid-template-rows: repeat(6, auto);
+  grid-template-rows: repeat(7, auto);
   grid-auto-flow: column;
-  justify-content: start;
-  gap: 0.6rem 2rem;
+  justify-content: center;
+  gap: 0.6rem 2.4rem;
 }
 
 .footer-nav-list li {
@@ -1672,18 +1676,17 @@ footer::after {
 }
 
 .ombee-logo {
-  height: 28px;
+  height: 26px;
   width: auto;
   vertical-align: middle;
-  background: rgba(250, 245, 230, 0.95);
-  padding: 4px 9px;
-  border-radius: 7px;
-  transition: filter var(--transition), transform var(--transition);
+  filter: brightness(0) invert(1);
+  opacity: 0.85;
+  transition: opacity var(--transition), transform var(--transition);
   display: inline-block;
 }
 
 .footer-credits .credit-design a:hover .ombee-logo {
-  filter: brightness(1.2);
+  opacity: 1;
   transform: scale(1.05);
 }
 
