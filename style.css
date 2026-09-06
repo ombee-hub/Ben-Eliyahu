@@ -2408,7 +2408,8 @@ html.a11y-saturation-high { filter: saturate(1.7); }
   padding: 0.7rem 1.5rem 0.7rem 6rem;
   display: flex;
   align-items: center;
-  gap: 1rem;
+  justify-content: center;
+  gap: 1.4rem;
   z-index: 8900;
   opacity: 0;
   transform: translateY(100%);
@@ -2424,7 +2425,7 @@ html.a11y-saturation-high { filter: saturate(1.7); }
   display: flex;
   align-items: center;
   gap: 0.8rem;
-  flex: 1;
+  flex: 0 1 auto;
   min-width: 0;
 }
 
@@ -2495,13 +2496,15 @@ html.a11y-saturation-high { filter: saturate(1.7); }
   }
   .cookie-row {
     flex: 1 1 100%;
+    justify-content: center;
   }
   .cookie-actions {
     width: 100%;
+    justify-content: center;
   }
   .cookie-accept,
   .cookie-decline {
-    flex: 1;
+    flex: 0 1 160px;
   }
 }
 
