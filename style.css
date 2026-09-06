@@ -2355,6 +2355,83 @@ html.a11y-saturation-high { filter: saturate(1.7); }
   border-top: 1px solid var(--sand2);
 }
 
+/* ===== Songs by Shai (quotes page) ===== */
+.songs-list {
+  max-width: 760px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.song-card {
+  background: #fff;
+  border: 1px solid var(--sand2);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+  transition: box-shadow var(--transition);
+}
+
+.song-card summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 1.1rem 1.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  position: relative;
+}
+
+.song-card summary::-webkit-details-marker { display: none; }
+
+.song-card summary::after {
+  content: '&#65291;';
+  content: '+';
+  position: absolute;
+  left: 1.2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--gold);
+  transition: transform var(--transition);
+}
+
+.song-card[open] summary::after {
+  content: '–';
+}
+
+.song-card summary:hover .song-title { color: var(--gold); }
+
+.song-title {
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--dark);
+  transition: color var(--transition);
+}
+
+.song-sub {
+  font-size: 0.8rem;
+  color: var(--mid);
+}
+
+.song-body {
+  border-top: 1px solid var(--sand2);
+  padding: 1.2rem 1.4rem 1.4rem;
+  background: var(--light);
+}
+
+.song-body p {
+  white-space: pre-line;
+  font-size: 0.95rem;
+  color: var(--dark);
+  line-height: 1.9;
+  margin-bottom: 1.1rem;
+}
+
+.song-body p:last-child { margin-bottom: 0; }
+
 /* ===== Cookie Notice (homepage only, bottom-center) ===== */
 .cookie-banner {
   position: fixed;
