@@ -314,7 +314,7 @@ document.addEventListener('DOMContentLoaded', function() {
           '<circle cx="14" cy="16.5" r="0.9" fill="currentColor" stroke="none"/>' +
           '<circle cx="12.5" cy="11" r="0.7" fill="currentColor" stroke="none"/>' +
         '</svg>' +
-        '<div class="cookie-text">האתר משתמש בעוגיות ובאחסון מקומי לשיפור חוויית הגלישה. למידע נוסף — <a href="privacy.html">מדיניות הפרטיות</a>.</div>' +
+        '<div class="cookie-text">אתר זה עושה שימוש בעוגיות לצורך תפעולו התקין ולשיפור השירות. המשך גלישה מהווה הסכמה ל<a href="privacy.html">מדיניות הפרטיות</a>.</div>' +
       '</div>' +
       '<div class="cookie-actions">' +
         '<button type="button" class="cookie-accept">אישור</button>' +
