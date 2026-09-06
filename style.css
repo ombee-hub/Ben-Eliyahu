@@ -306,6 +306,7 @@ button, input, select, textarea {
 .mobile-menu.open a:nth-of-type(8) { transition-delay: 0.26s; }
 .mobile-menu.open a:nth-of-type(9) { transition-delay: 0.29s; }
 .mobile-menu.open a:nth-of-type(10) { transition-delay: 0.32s; }
+.mobile-menu.open a:nth-of-type(11) { transition-delay: 0.35s; }
 
 /* Close button inside the menu (the navbar is covered while it is open) */
 .mobile-menu-close {

@@ -120,6 +120,7 @@ updateNavbar();
     'testimonials.html': 'testimonials',
     'press.html': 'press',
     'quotes.html': 'quotes',
+    'works.html': 'works',
     'gallery.html': 'gallery',
     'contact.html': 'contact'
   };
@@ -203,11 +204,9 @@ document.addEventListener('DOMContentLoaded', function() {
   if (el) el.innerHTML = el.innerHTML.replace(/–\d{4}/, '–' + new Date().getFullYear());
 });
 
-// ===== Gallery Lightbox =====
+// ===== Gallery Lightbox (any .photog grid) =====
 (function() {
-  function init() {
-    var grid = document.getElementById('galleryGrid');
-    if (!grid) return;
+  function initGrid(grid) {
     var items = Array.prototype.slice.call(grid.querySelectorAll('.phi'));
     if (!items.length) return;
 
@@ -280,6 +279,10 @@ document.addEventListener('DOMContentLoaded', function() {
         open(items.indexOf(item));
       }
     });
+  }
+
+  function init() {
+    document.querySelectorAll('.photog').forEach(initGrid);
   }
 
   if (document.readyState === 'loading') {
