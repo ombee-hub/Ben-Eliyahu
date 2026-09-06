@@ -14,6 +14,7 @@ window.galleryPhotos = [
   { file: "shai-rabin-tzur-1993.webp", caption: "שי עם רה\"מ יצחק רבין ושר החקלאות יעקב צור, 11.3.1993" },
   { file: "shai-king-abdullah.webp", caption: "שי בן אליהו עם המלך עבדאללה השני" },
   { file: "shai-hillary-abdullah-rania.webp", caption: "שי בן אליהו עם הילרי קלינטון, המלך עבדאללה והמלכה רניה" },
+  { file: "family-shimon-peres.webp", caption: "בני המשפחה עם הנשיא שמעון פרס בבית הנשיא" },
 
   // השיטפונות בערבה
   { file: "arava-stream-flood.webp", caption: "שיטפון בנחל ערבה – אדם במים השוצפים" },
