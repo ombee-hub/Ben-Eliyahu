@@ -121,6 +121,7 @@ updateNavbar();
     'press.html': 'press',
     'quotes.html': 'quotes',
     'works.html': 'works',
+    'videos.html': 'videos',
     'gallery.html': 'gallery',
     'contact.html': 'contact'
   };

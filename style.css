@@ -307,6 +307,27 @@ button, input, select, textarea {
 .mobile-menu.open a:nth-of-type(9) { transition-delay: 0.29s; }
 .mobile-menu.open a:nth-of-type(10) { transition-delay: 0.32s; }
 .mobile-menu.open a:nth-of-type(11) { transition-delay: 0.35s; }
+.mobile-menu.open a:nth-of-type(12) { transition-delay: 0.38s; }
+
+/* Videos page */
+.pc.videos-page {
+  max-width: 1100px;
+}
+
+.videos-page .home-videos {
+  align-items: flex-start;
+}
+
+.videos-page .home-video video {
+  flex: none;
+  width: 100%;
+  height: auto;
+}
+
+.video-card.video-portrait {
+  max-width: 320px;
+  flex: 0 1 320px;
+}
 
 /* Close button inside the menu (the navbar is covered while it is open) */
 .mobile-menu-close {
@@ -2293,7 +2314,7 @@ html.a11y-saturation-high { filter: saturate(1.7); }
 
 /* Memorial video inside Ruti's column */
 .video-card {
-  max-width: 340px;
+  max-width: 460px;
   margin: 1.3rem auto 0;
   background: #fff;
   border: 1px solid var(--sand2);
