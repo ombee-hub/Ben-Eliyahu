@@ -363,7 +363,6 @@ button, input, select, textarea {
   padding-left: 3.4rem; /* keep clear of the close button */
   margin-bottom: 0.5rem;
   border-radius: 0;
-  border-bottom: 1px solid rgba(44, 26, 10, 0.1);
 }
 
 .mobile-menu-home img {
