@@ -292,11 +292,8 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 })();
 
-// ===== Cookie Notice (homepage only) =====
+// ===== Cookie Notice (shown on first visit, on any page) =====
 (function() {
-  var page = window.location.pathname.split('/').pop();
-  if (page && page !== 'index.html') return;
-
   var KEY = 'cookie-notice-v1';
   try { if (localStorage.getItem(KEY)) return; } catch (e) {}
 
