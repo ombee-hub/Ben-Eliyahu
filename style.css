@@ -2318,6 +2318,15 @@ html.a11y-saturation-high { filter: saturate(1.7); }
   border-top: 1px solid var(--sand2);
 }
 
+/* Historic clip on the homepage — landscape, a bit wider */
+.home-video-sec {
+  padding-top: 2.5rem;
+}
+
+.video-card.home-video {
+  max-width: 620px;
+}
+
 /* ===== Songs by Shai (quotes page) ===== */
 .songs-list {
   max-width: 760px;
