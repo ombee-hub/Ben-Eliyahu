@@ -2318,13 +2318,31 @@ html.a11y-saturation-high { filter: saturate(1.7); }
   border-top: 1px solid var(--sand2);
 }
 
-/* Historic clip on the homepage — landscape, a bit wider */
+/* Historic clips on the homepage — side by side, stacked on mobile */
 .home-video-sec {
   padding-top: 2.5rem;
+  max-width: 1100px;
+}
+
+.home-videos {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 1.5rem;
+  flex-wrap: wrap;
 }
 
 .video-card.home-video {
-  max-width: 620px;
+  max-width: 480px;
+  width: 100%;
+  flex: 0 1 480px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.video-card.home-video video {
+  flex: 1;
 }
 
 /* ===== Songs by Shai (quotes page) ===== */
