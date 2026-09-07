@@ -73,7 +73,7 @@
     <div class="home-videos" id="videosGrid"></div>
   </div>
 
-  <script src="videos/videos-data.js?v=2"></script>
+  <script src="videos/videos-data.js?v=3"></script>
   <script>
     (function(){
       var vids = window.siteVideos || [];
@@ -82,7 +82,7 @@
       grid.innerHTML = vids.map(function(v){
         return '<div class="video-card home-video' + (v.portrait ? ' video-portrait' : '') + ' reveal">'
           + '<video controls preload="metadata" playsinline>'
-          + '<source src="videos/' + encodeURIComponent(v.file) + '" type="video/mp4">'
+          + '<source src="videos/' + encodeURIComponent(v.file) + (v.v ? '?v=' + v.v : '') + '" type="video/mp4">'
           + 'הדפדפן שלך אינו תומך בניגון וידאו.'
           + '</video>'
           + '<div class="video-caption">' + (v.caption || '') + '</div>'
