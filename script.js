@@ -294,7 +294,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // ===== Cookie Notice (shown on first visit, on any page) =====
 (function() {
-  var KEY = 'cookie-notice-v1';
+  var KEY = 'cookie-notice-v2';
   try { if (localStorage.getItem(KEY)) return; } catch (e) {}
 
   function build() {
