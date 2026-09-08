@@ -293,8 +293,11 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 })();
 
-// ===== Cookie Notice (shown on first visit, on any page) =====
+// ===== Cookie Notice (homepage only) =====
 (function() {
+  var page = window.location.pathname.split('/').pop();
+  if (page && page !== 'index.html') return;
+
   var KEY = 'cookie-notice-v2';
   try { if (localStorage.getItem(KEY)) return; } catch (e) {}
 
