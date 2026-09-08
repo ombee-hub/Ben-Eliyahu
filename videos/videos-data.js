@@ -3,6 +3,7 @@
 window.siteVideos = [
   { file: "arava-history.mp4", caption: "תיעוד היסטורי מן הערבה – חלק א'" },
   { file: "arava-history-2.mp4", caption: "תיעוד היסטורי מן הערבה – חלק ב'" },
+  { file: "ben-gurion-letter.mp4", caption: "המכתב של בן גוריון" },
   { file: "ruti-memorial.mp4", v: 2, caption: "רותי בן אליהו ז\"ל" },
   { file: "peres-tribute.mp4", caption: "דבר נשיא המדינה שמעון פרס – ערב ההוקרה לשי" },
   { file: "rubinstein-tribute.mp4", caption: "דבר שופט בית המשפט העליון אליקים רובינשטיין על שי" },
