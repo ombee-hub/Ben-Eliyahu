@@ -67,8 +67,4 @@ window.galleryPhotos = [
   { file: "amnon-orhella-michael-shai-holland.webp", caption: "אמנון, אורהלה, מייקל ושי בהולנד" },
   { file: "shai-michael-orhella-holland-2.webp", caption: "שי, מייקל ואורהלה בהולנד" },
   { file: "holland-sheva.webp", caption: "עם שבע בהולנד" },
-
-  // טבע
-  { file: "fawn.webp", caption: "עופר בחצר הבית" },
-  { file: "historic-4.webp", caption: "עופר ערבה צעיר" }
 ];
