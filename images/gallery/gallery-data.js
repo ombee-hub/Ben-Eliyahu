@@ -18,6 +18,7 @@ window.galleryPhotos = [
   // מפגשים היסטוריים
   { file: "shai-ben-gurion-izruah.webp", caption: "שי עם דוד בן גוריון בחג האזרוח בעמק הנעלם" },
   { file: "shai-golda-meir.webp", caption: "שי וגולדה מאיר" },
+  { file: "shai-golda-meir-2.webp", caption: "שי עם גולדה מאיר – תמונה היסטורית" },
   { file: "shai-rabin.webp", caption: "שי בן אליהו עם ראש הממשלה יצחק רבין" },
   { file: "shai-rabin-tzur-1993.webp", caption: "שי עם רה\"מ יצחק רבין ושר החקלאות יעקב צור, 11.3.1993" },
   { file: "shai-king-abdullah.webp", caption: "שי בן אליהו עם המלך עבדאללה השני" },
@@ -67,4 +68,10 @@ window.galleryPhotos = [
   { file: "amnon-orhella-michael-shai-holland.webp", caption: "אמנון, אורהלה, מייקל ושי בהולנד" },
   { file: "shai-michael-orhella-holland-2.webp", caption: "שי, מייקל ואורהלה בהולנד" },
   { file: "holland-sheva.webp", caption: "עם שבע בהולנד" },
+  { file: "holland-2006-3.webp", caption: "הולנד, 2006" },
+  { file: "holland-2006-2.webp", caption: "הולנד, 2006" },
+  { file: "holland-2006-1.webp", caption: "הולנד, 2006" },
+  { file: "holland-trip-3.webp", caption: "בטיול בהולנד" },
+  { file: "holland-trip-2.webp", caption: "בטיול בהולנד" },
+  { file: "holland-trip-1.webp", caption: "בטיול בהולנד" },
 ];
