@@ -12,6 +12,7 @@ window.galleryPhotos = [
   { file: "shai-mara-canola-field.webp", caption: "שי ומרה בשדה הקינואה" },
   { file: "shai-speaking.webp", caption: "שי נואם" },
   { file: "shai-marzeva-hike.webp", caption: "שי מטייל במרזבה" },
+  { file: "sleeping-on-the-road.webp", caption: "ישן על הכביש" },
   { file: "shai-melons.webp", caption: "שי במלונים" },
   { file: "shai-greenhouse-1999.webp", caption: "שי בחממה, 1999" },
 

@@ -944,6 +944,11 @@ button, input, select, textarea {
   margin-top: 1.5rem;
 }
 
+/* An odd last card spans the full row instead of leaving an empty cell */
+.pg .pb:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+}
+
 .pb {
   background: var(--light);
   border: 1px solid var(--sand2);
