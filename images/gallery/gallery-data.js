@@ -24,6 +24,7 @@ window.galleryPhotos = [
   { file: "shai-king-abdullah.webp", caption: "שי בן אליהו עם המלך עבדאללה השני" },
   { file: "shai-hillary-abdullah-rania.webp", caption: "שי בן אליהו עם הילרי קלינטון, המלך עבדאללה והמלכה רניה" },
   { file: "family-shimon-peres.webp", caption: "בני המשפחה עם הנשיא שמעון פרס בבית הנשיא" },
+  { file: "elyakim-rubinstein.webp", caption: "השופט אליקים רובינשטיין" },
 
   // השיטפונות בערבה
   { file: "arava-stream-flood.webp", caption: "שיטפון בנחל ערבה – אדם במים השוצפים" },
@@ -36,7 +37,6 @@ window.galleryPhotos = [
   { file: "shulamit-meirka-portrait.webp", caption: "שלומית ומאירקה" },
   { file: "meirka-moshav-event.webp", caption: "מאירקה באירוע במושב" },
   { file: "shai-hagi-ziv-wedding.webp", caption: "שי וחגי בחתונת זיו" },
-  { file: "family-album-3.webp", caption: "מתוך האלבום המשפחתי" },
   { file: "dudu-ben-eliyahu.webp", caption: "דודו בן אליהו" },
   { file: "hadas-ben-eliyahu.webp", caption: "הדס בן אליהו" },
   { file: "omri-concert-2009.webp", caption: "בקונצרט של עמרי, יולי 2009" },
