@@ -428,5 +428,61 @@ window.shaiSongs = [
   {
     file: "song-107.webp",
     caption: "שלושים לעליה 1989"
+  },
+  {
+    file: "song-108.webp",
+    caption: "גד ודן סיום במשמר הנגב"
+  },
+  {
+    file: "song-109.webp",
+    caption: "דוד נחמיאס 1995"
+  },
+  {
+    file: "song-110.webp",
+    caption: "המעבר לביהס האזורי 1978"
+  },
+  {
+    file: "song-111.webp",
+    caption: "זיידה אזרח כבוד 1995"
+  },
+  {
+    file: "song-112.webp",
+    caption: "לארבעת המוסקטרים 1994 א"
+  },
+  {
+    file: "song-113.webp",
+    caption: "לארבעת המוסקטרים 1994 ב"
+  },
+  {
+    file: "song-114.webp",
+    caption: "לעידן גדיש 1997"
+  },
+  {
+    file: "song-115.webp",
+    caption: "סוף שנה"
+  },
+  {
+    file: "song-116.webp",
+    caption: "עודד בן מנחם בסיום ניהול ביהס"
+  },
+  {
+    file: "song-117.webp",
+    caption: "קיבוץ גלויות 1980"
+  },
+  {
+    file: "song-118.webp",
+    caption: "קיבוץ גלויות 1980 – כתב יד"
+  },
+  {
+    file: "song-119.webp",
+    caption: "שלום 1980"
+  },
+  {
+    file: "song-120.webp",
+    caption: "שלמי תודה לרבין 1995 א"
+  },
+  {
+    file: "song-121.webp",
+    caption: "שלמי תודה לרבין 1995 ב"
   }
 ];
