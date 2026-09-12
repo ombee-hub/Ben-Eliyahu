@@ -942,6 +942,7 @@ button, input, select, textarea {
   grid-template-columns: 1fr 1fr;
   gap: 1.4rem;
   margin-top: 1.5rem;
+  align-items: start; /* cards hug their content instead of stretching to the tallest in the row */
 }
 
 /* An odd last card spans the full row instead of leaving an empty cell */
