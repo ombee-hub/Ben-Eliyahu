@@ -484,5 +484,17 @@ window.shaiSongs = [
   {
     file: "song-121.webp",
     caption: "שלמי תודה לרבין 1995 ב"
+  },
+  {
+    file: "song-122.webp",
+    caption: "ברכה למסיימי י\"ב מחזור ג', 1984"
+  },
+  {
+    file: "song-123.webp",
+    caption: "ה\"בא כוח\" – כתב שי בן אליהו"
+  },
+  {
+    file: "song-124.webp",
+    caption: "שירו של שי – \"מחר\""
   }
 ];
