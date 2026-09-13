@@ -43,7 +43,6 @@ window.galleryPhotos = [
   { file: "family-shimon-peres.webp", caption: "בני המשפחה עם הנשיא שמעון פרס בבית הנשיא" },
   { file: "with-david-shatner.webp", caption: "עם דוד שטנר" },
   { file: "shai-ben-gurion-1970.webp", caption: "שי עם דוד בן גוריון, 26.6.1970" },
-  { file: "shai-rabin-2.webp", caption: "שי עם יצחק רבין" },
   { file: "shai-assaf-hefetz.webp", caption: "שי בביקור אסף חפץ" },
   { file: "btr-event-1.webp", caption: "מתוך אירועי פרויקט BTR" },
   { file: "btr-event-2.webp", caption: "טקס פרויקט BTR" },
