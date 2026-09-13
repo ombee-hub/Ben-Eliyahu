@@ -117,7 +117,6 @@ window.galleryPhotos = [
   { file: "tu-bishvat-family.webp", caption: "ט\"ו בשבט משפחתי" },
   { file: "shai-70th-neve-tzedek.webp", caption: "יום הולדת 70 בנווה צדק" },
   { file: "four-musketeers.webp", caption: "ארבעת המוסקטרים" },
-  { file: "meirka-mall.webp", caption: "מאירקה בקניון" },
   { file: "hagi-donkey-2.webp", caption: "חגי על החמור" },
   { file: "vegetable-hanukkiah-2.webp", caption: "חנוכייה מירקות הערבה" },
   { file: "the-fawn.webp", caption: "העופר" },
