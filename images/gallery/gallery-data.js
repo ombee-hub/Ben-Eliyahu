@@ -17,7 +17,7 @@ window.galleryPhotos = [
   { file: "shai-greenhouse-1999.webp", caption: "שי בחממה, 1999" },
   { file: "shai-jubilee-opening-1.webp", caption: "שי בפתיחת אירועי היובל" },
   { file: "shai-jubilee-opening-2.webp", caption: "שי בפתיחת אירועי היובל" },
-  { file: "airport-opening.webp", caption: "פתיחת שדה התעופה" },
+  { file: "airport-opening.webp", caption: "פתיחת קו התעופה לתל אביב, 31.5.1976" },
   { file: "onion-loading.webp", caption: "העמסת בצל לאחר הקינוב" },
   { file: "shai-dudu-greenhouse.webp", caption: "שי ודודו מנקים חממה" },
   { file: "shai-desert-bloom.webp", caption: "שי בפריחה מדברית" },
