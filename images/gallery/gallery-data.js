@@ -145,7 +145,6 @@ window.galleryPhotos = [
   { file: "holland-tulip-field-2006.webp", caption: "שי מצלם את רותי בשדה הצבעונים – ומצלמים אותו מצלם אותה" },
   { file: "shai-michael-orhella-holland-tulips.webp", caption: "שי, מייקל ואורהלה בגן הצבעונים בהולנד" },
   { file: "amnon-orhella-michael-shai-holland.webp", caption: "אמנון, אורהלה, מייקל ושי בהולנד" },
-  { file: "shai-michael-orhella-holland-2.webp", caption: "שי, מייקל ואורהלה בהולנד" },
   { file: "holland-sheva.webp", caption: "עם שבע בהולנד" },
   { file: "holland-group-michael.webp", caption: "אמנון, אורלה, שבע, רותי ושי – מייקל מצלם" },
   { file: "orhella-shai-holland.webp", caption: "אורהלה ושי בהולנד" },
