@@ -59,8 +59,6 @@ window.galleryPhotos = [
   { file: "flood-3.webp", caption: "חילוץ רכב לאחר השיטפון" },
 
   // משפחה וזיכרון
-  { file: "meirka-shulamit-wedding.webp", caption: "חתונת מאירקה ושלומית" },
-  { file: "shulamit-meirka-portrait.webp", caption: "שלומית ומאירקה" },
   { file: "meirka-moshav-event.webp", caption: "מאירקה באירוע במושב" },
   { file: "shai-hagi-ziv-wedding.webp", caption: "שי וחגי בחתונת זיו" },
   { file: "dudu-ben-eliyahu.webp", caption: "דודו בן אליהו" },
