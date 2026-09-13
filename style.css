@@ -1213,24 +1213,6 @@ button, input, select, textarea {
 
 .phi:hover .phic { transform: scale(1.2); }
 
-.php::after {
-  content: '\05DC\05E6\05E4\05D9\05D9\05D4';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.6);
-  color: var(--gold);
-  font-size: 0.7rem;
-  font-weight: 700;
-  padding: 0.3rem;
-  text-align: center;
-  transform: translateY(100%);
-  transition: transform var(--transition);
-}
-
-.phi:hover .php::after { transform: translateY(0); }
-
 .phc {
   font-size: 0.78rem;
   color: var(--mid);
