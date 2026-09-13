@@ -92,6 +92,12 @@ window.galleryPhotos = [
   { file: "ruti-shai-botanic-1986.webp", caption: "רותי ושי בגן הבוטני, 1986" },
   { file: "ruti-shai-1995.webp", caption: "רותי ושי, 1995" },
   { file: "ruti-shai-indonesia.webp", caption: "רותי ושי באינדונזיה" },
+  { file: "indonesia-1996-1.webp", caption: "אינדונזיה, 26.7.1996" },
+  { file: "indonesia-1996-2.webp", caption: "אינדונזיה, 28.7.1996" },
+  { file: "indonesia-1996-3.webp", caption: "אינדונזיה, 28.7.1996" },
+  { file: "australia-1.webp", caption: "באוסטרליה" },
+  { file: "australia-2.webp", caption: "באוסטרליה" },
+  { file: "gan-tamar-2013.webp", caption: "גן תמר, 2013" },
   { file: "shai-ruti-sugarloaf.webp", caption: "שי ורותי בהר הסוכר" },
   { file: "shai-ruti-bench.webp", caption: "שי ורותי על ספסל בגן" },
   { file: "shai-loving-hug.webp", caption: "חיבוק אוהב" },
@@ -136,6 +142,7 @@ window.galleryPhotos = [
   { file: "shai-hagi-flowers.webp", caption: "שי וחגי – רגע משותף" },
   { file: "shai-hagi-gvati.webp", caption: "שי, חגי וגבתי" },
   { file: "cheche-hagi.webp", caption: "צ'צ'ה וחגי" },
+  { file: "cheche-kitchen.webp", caption: "במטבח של צ'צ'ה" },
 
   // הולנד
   { file: "holland-tulip-field-2006.webp", caption: "שי מצלם את רותי בשדה הצבעונים – ומצלמים אותו מצלם אותה" },
