@@ -2,7 +2,6 @@ window.galleryPhotos = [
   // המקום והנוף
   { file: "ein-yahav-aerial.webp", caption: "צילום אוויר – מושב עין יהב והחממות" },
   { file: "eternal-summer-sign.webp", caption: "השלט בכניסה למושב – ארץ הקיץ הנצחית" },
-  { file: "moshav-historic.webp", caption: "המושב בראשית ימיו – תמונה היסטורית" },
   { file: "shai-historic-kitchen.webp", caption: "שי בן אליהו במטבח הצריף – ימי הראשית" },
   { file: "beit-haam-cornerstone.webp", caption: "הנחת אבן הפינה לבית העם בעין יהב" },
   { file: "historic-2.webp", caption: "השלט בכניסה לארץ הקיץ הנצחית" },
@@ -126,8 +125,6 @@ window.galleryPhotos = [
   { file: "dudu-portrait.webp", caption: "דודו בן אליהו" },
   { file: "ruti-hadas-rotem-usa.webp", caption: "רותי, הדס ורתם בארצות הברית" },
   { file: "family-trip.webp", caption: "בטיול משפחתי" },
-  { file: "family-album-5.webp", caption: "מתוך האלבום המשפחתי" },
-  { file: "family-album-7.webp", caption: "מתוך האלבום המשפחתי" },
   { file: "shai-1970.webp", caption: "שי, 1970" },
   { file: "vancouver-1988.webp", caption: "בוונקובר, 1988" },
   { file: "shai-2003.webp", caption: "שי, 2003" },
