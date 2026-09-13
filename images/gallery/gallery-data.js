@@ -22,7 +22,7 @@ window.galleryPhotos = [
   { file: "shai-golda-meir-2.webp", caption: "שי עם גולדה מאיר – תמונה היסטורית" },
   { file: "shai-rabin.webp", caption: "שי בן אליהו עם ראש הממשלה יצחק רבין" },
   { file: "shai-rabin-tzur-1993.webp", caption: "שי עם רה\"מ יצחק רבין ושר החקלאות יעקב צור, 11.3.1993" },
-  { file: "shai-king-abdullah.webp", caption: "שי בן אליהו עם המלך עבדאללה השני" },
+  { file: "shai-king-abdullah.webp", v: 2, caption: "שי בן אליהו עם המלך עבדאללה השני" },
   { file: "shai-hillary-abdullah-rania.webp", caption: "שי בן אליהו עם הילרי קלינטון, המלך עבדאללה והמלכה רניה" },
   { file: "family-shimon-peres.webp", caption: "בני המשפחה עם הנשיא שמעון פרס בבית הנשיא" },
   { file: "elyakim-rubinstein.webp", caption: "השופט אליקים רובינשטיין" },
