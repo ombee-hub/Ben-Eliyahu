@@ -87,7 +87,6 @@ window.galleryPhotos = [
   { file: "shai-shahar-birthday-2008.webp", caption: "שי ביום ההולדת של שחר, אוקטובר 2008" },
   { file: "sara-baby-shai.webp", caption: "שרה עם שי התינוק" },
   { file: "ruti-naava-babies.webp", caption: "רותי ואחותה התאומה נאוה, תינוקות" },
-  { file: "ruti-naava-babies-2.webp", caption: "רותי ונאוה תינוקות – תמונה נוספת" },
   { file: "ruti-naava.webp", caption: "רותי ונאוה" },
   { file: "saba-alyusha-1986.webp", caption: "סבא אליושה, 1986" },
   { file: "shai-doda-genia.webp", caption: "שי ודודה ג'ניה" },
