@@ -1,7 +1,6 @@
 window.galleryPhotos = [
   // המקום והנוף
   { file: "ein-yahav-aerial.webp", caption: "צילום אוויר – מושב עין יהב והחממות" },
-  { file: "ein-yahav-pool.webp", caption: "בריכת עין יהב" },
   { file: "eternal-summer-sign.webp", caption: "השלט בכניסה למושב – ארץ הקיץ הנצחית" },
   { file: "moshav-historic.webp", caption: "המושב בראשית ימיו – תמונה היסטורית" },
   { file: "shai-historic-kitchen.webp", caption: "שי בן אליהו במטבח הצריף – ימי הראשית" },
