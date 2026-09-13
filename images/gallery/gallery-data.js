@@ -53,6 +53,7 @@ window.galleryPhotos = [
 
   // השיטפונות בערבה
   { file: "arava-stream-flood.webp", caption: "שיטפון בנחל ערבה – אדם במים השוצפים" },
+  { file: "arava-flood.webp", caption: "שיטפון בערבה" },
   { file: "flood-1.webp", caption: "רכב שנתקע בבוץ לאחר שיטפון" },
   { file: "flood-2.webp", caption: "חילוץ רכב מהבוץ באמצעות טרקטור" },
   { file: "flood-3.webp", caption: "חילוץ רכב לאחר השיטפון" },
@@ -92,6 +93,7 @@ window.galleryPhotos = [
   { file: "ruti-shai-lea-wedding.webp", caption: "רותי, שי ולאה בחתונה" },
   { file: "ruti-shai-botanic-1986.webp", caption: "רותי ושי בגן הבוטני, 1986" },
   { file: "ruti-shai-1995.webp", caption: "רותי ושי, 1995" },
+  { file: "ruti-shai-indonesia.webp", caption: "רותי ושי באינדונזיה" },
   { file: "shai-ruti-sugarloaf.webp", caption: "שי ורותי בהר הסוכר" },
   { file: "shai-ruti-bench.webp", caption: "שי ורותי על ספסל בגן" },
   { file: "shai-loving-hug.webp", caption: "חיבוק אוהב" },
