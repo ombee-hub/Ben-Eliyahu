@@ -104,7 +104,7 @@ window.galleryPhotos = [
   { file: "shai-ruti-yuval-tal.webp", caption: "שי, רותי, יובל וטל" },
   { file: "shai-omri.webp", caption: "שי ועמרי" },
   { file: "shai-yotam.webp", caption: "שי ויותם" },
-  { file: "yotam.webp", caption: "יותם" },
+  { file: "yotam.webp", caption: "יותם בן אליהו, הנכד השני" },
   { file: "ofer-baby-sleeping.webp", caption: "עופר תינוק ישן" },
   { file: "shai-rotem-borot-lutz.webp", caption: "שי ורתם בבורות לוץ" },
   { file: "hadas-army.webp", caption: "הדס בטירונות" },
