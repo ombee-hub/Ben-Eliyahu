@@ -115,7 +115,6 @@ window.galleryPhotos = [
   { file: "tu-bishvat-family.webp", caption: "ט\"ו בשבט משפחתי" },
   { file: "shai-70th-neve-tzedek.webp", caption: "יום הולדת 70 בנווה צדק" },
   { file: "four-musketeers.webp", caption: "ארבעת המוסקטרים" },
-  { file: "vegetable-hanukkiah-2.webp", caption: "חנוכייה מירקות הערבה" },
   { file: "halloween-1986.webp", caption: "האלווין, 1986" },
   { file: "chinese-restaurant-ny.webp", caption: "במסעדה הסינית בניו יורק" },
   { file: "homeless-ny.webp", caption: "ההומלס בניו יורק" },
