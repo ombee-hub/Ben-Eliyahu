@@ -156,7 +156,6 @@ window.galleryPhotos = [
   { file: "shai-michael-orhella-holland-2.webp", caption: "שי, מייקל ואורהלה בהולנד" },
   { file: "holland-sheva.webp", caption: "עם שבע בהולנד" },
   { file: "orhella-shai-holland.webp", caption: "אורהלה ושי בהולנד" },
-  { file: "michael-holland-2.webp", caption: "מייקל בהולנד" },
   { file: "holland-2006-3.webp", caption: "הולנד, 2006" },
   { file: "holland-2006-2.webp", caption: "הולנד, 2006" },
   { file: "holland-2006-1.webp", caption: "הולנד, 2006" },
