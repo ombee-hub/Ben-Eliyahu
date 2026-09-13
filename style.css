@@ -1848,7 +1848,7 @@ footer::after {
   grid-template-columns: 52px 1fr;
   align-items: center;
   align-content: center; /* keep heading and text together when the box is stretched */
-  gap: 0.3rem 1rem;
+  gap: 0 1rem;
   text-align: right;
 }
 
