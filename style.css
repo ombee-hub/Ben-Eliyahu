@@ -1858,15 +1858,12 @@ footer::after {
 }
 
 .ci-box-icon {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   width: 52px;
-  height: 52px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, var(--sand2), #fff);
-  border-radius: 50%;
-  box-shadow: 0 3px 10px rgba(var(--gold-rgb), 0.18);
+  color: var(--gold);
   grid-row: span 2;
   align-self: center;
 }
@@ -1880,7 +1877,11 @@ footer::after {
   font-weight: 700;
   color: var(--dark);
   margin: 0;
-  align-self: center;
+  align-self: end;
+}
+
+.ci-box p {
+  align-self: start;
 }
 
 .ci-box p {
