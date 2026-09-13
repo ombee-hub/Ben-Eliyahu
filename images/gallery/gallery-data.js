@@ -152,7 +152,6 @@ window.galleryPhotos = [
   { file: "holland-sheva.webp", caption: "עם שבע בהולנד" },
   { file: "holland-group-michael.webp", caption: "אמנון, אורלה, שבע, רותי ושי – מייקל מצלם" },
   { file: "orhella-shai-holland.webp", caption: "אורהלה ושי בהולנד" },
-  { file: "holland-2006-3.webp", caption: "סיור בהולנד" },
-  { file: "holland-2006-2.webp", caption: "סיור בהולנד" },
   { file: "holland-2006-1.webp", caption: "סיור בהולנד" },
+  { file: "holland-tour-2006.webp", caption: "סיור בהולנד" },
 ];
