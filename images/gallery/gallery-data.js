@@ -53,6 +53,10 @@ window.galleryPhotos = [
   { file: "family-peach-orchard.webp", caption: "תמונה משפחתית במטע האפרסקים" },
   { file: "sara-dudu-hadas-gila-1969.webp", caption: "שרה, דודו, הדס וגילה, 1969" },
   { file: "shai-portrait.webp", caption: "שי בן אליהו" },
+  { file: "shai-1970.webp", caption: "שי, 1970" },
+  { file: "vancouver-1988.webp", caption: "בוונקובר, 1988" },
+  { file: "shai-2003.webp", caption: "שי, 2003" },
+  { file: "shai-2004.webp", caption: "שי, 2004" },
   { file: "historic-1.webp", caption: "טקס זיכרון משפחתי" },
   { file: "historic-3.webp", caption: "כינוס משפחתי באתר הזיכרון" },
 
