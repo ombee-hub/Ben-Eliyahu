@@ -1858,14 +1858,18 @@ footer::after {
 }
 
 .ci-box-icon {
-  font-size: 1.7rem;
-  width: 52px;
+  font-size: 1.5rem;
+  width: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--gold);
-  grid-row: span 2;
   align-self: center;
+}
+
+.ci-box-icon svg {
+  width: 26px;
+  height: 26px;
 }
 
 .ci-box:has(> h4:only-of-type) .ci-box-icon {
@@ -1877,7 +1881,7 @@ footer::after {
   font-weight: 700;
   color: var(--dark);
   margin: 0;
-  align-self: end;
+  align-self: center;
 }
 
 .ci-box p {
