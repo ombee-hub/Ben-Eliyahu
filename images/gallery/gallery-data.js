@@ -20,7 +20,6 @@ window.galleryPhotos = [
   { file: "airport-opening.webp", caption: "פתיחת שדה התעופה" },
   { file: "onion-loading.webp", caption: "העמסת בצל לאחר הקינוב" },
   { file: "shai-dudu-greenhouse.webp", caption: "שי ודודו מנקים חממה" },
-  { file: "shai-mara-canola-2.webp", caption: "שי ומרה בשדה הקינואה" },
   { file: "shai-desert-bloom.webp", caption: "שי בפריחה מדברית" },
   { file: "hitnahalut-1968.webp", caption: "חג ההתנחלות, פברואר 1968" },
   { file: "permanent-settlement-ceremony.webp", caption: "ההורים בטקס העלייה ליישוב הקבע" },
