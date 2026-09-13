@@ -5,3 +5,6 @@ Thumbs.db
 # Site deployment archives (regenerated, not source)
 *.zip
 
+
+# Too large for GitHub (100MB limit) – deployed via ZIP only
+videos/ruti-interview.mp4
