@@ -38,10 +38,6 @@ window.shaiSongs = [
     caption: "ברכה לראש השנה"
   },
   {
-    file: "song-010.webp",
-    caption: "דודו 40"
-  },
-  {
     file: "song-011.webp",
     caption: "דודו ארבעים"
   },
