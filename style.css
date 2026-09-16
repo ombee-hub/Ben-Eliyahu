@@ -2604,3 +2604,14 @@ html.a11y-saturation-high { filter: saturate(1.7); }
 .doc-page li { margin-bottom: 0.4rem; }
 .doc-page .doc-meta { background: var(--sand2); border-right: 4px solid var(--gold); padding: 0.9rem 1.1rem; border-radius: 8px; margin: 1.5rem 0; font-size: 0.9rem; }
 .doc-page a { color: var(--rust); font-weight: 600; }
+
+/* Letter / long testimony block (peace page) */
+.letter-box { max-width: 820px; margin: 2.5rem auto 0; background: #fffdf7; border: 1px solid rgba(var(--gold-rgb), 0.28); border-top: 4px solid var(--gold); border-radius: var(--radius); padding: 2.4rem 2.6rem; box-shadow: var(--shadow-card); }
+.letter-box p { color: var(--dark2); line-height: 2.05; font-size: 1rem; margin-bottom: 1.2rem; text-align: justify; }
+.letter-box .letter-sign { color: var(--rust); font-weight: 800; font-size: 1.05rem; margin-top: 1.2rem; }
+.letter-box .letter-sign small { display: block; font-weight: 600; color: var(--mid); font-size: 0.82rem; margin-top: 0.15rem; }
+.letter-more summary { cursor: pointer; color: var(--rust); font-weight: 700; font-size: 0.92rem; list-style: none; display: inline-block; padding: 0.5rem 1.6rem; border: 1.5px solid var(--gold); border-radius: 999px; transition: var(--transition); margin: 0.2rem 0 1rem; }
+.letter-more summary::-webkit-details-marker { display: none; }
+.letter-more summary:hover { background: var(--gold); color: #fff; }
+.letter-more[open] summary { display: none; }
+@media (max-width: 700px) { .letter-box { padding: 1.6rem 1.3rem; } .letter-box p { font-size: 0.95rem; } }
