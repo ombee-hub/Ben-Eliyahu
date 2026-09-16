@@ -1,497 +1,127 @@
 // השירים המקוריים בכתב ידו של שי – סריקות.
-// להוספה: העלו קובץ ל-images/songs/ והוסיפו שורה כאן.
+// להוספה: העלו קובץ ל-images/songs/ והוסיפו שורה כאן. v: מספר גרסה – העלו אותו אם החלפתם קובץ קיים באותו שם.
 window.shaiSongs = [
-  {
-    file: "song-001.webp",
-    caption: "אורלה בת 50"
-  },
-  {
-    file: "song-002.webp",
-    caption: "אורלה בת 60"
-  },
-  {
-    file: "song-003.webp",
-    caption: "אל תחשבו שאיננו יודעים 1968"
-  },
-  {
-    file: "song-004.webp",
-    caption: "אמנון נבון בן 60"
-  },
-  {
-    file: "song-005.webp",
-    caption: "בר מצווה לרזי עורי"
-  },
-  {
-    file: "song-006.webp",
-    caption: "בראשית"
-  },
-  {
-    file: "song-007.webp",
-    caption: "ברכה להורינו - חג ה 25"
-  },
-  {
-    file: "song-008.webp",
-    caption: "ברכה לחנוכה נכתב עבור רותם למסיבת חנוכה בביהס"
-  },
-  {
-    file: "song-009.webp",
-    caption: "ברכה לראש השנה"
-  },
-  {
-    file: "song-011.webp",
-    v: 2,
-    caption: "דודו בן 40, 11.2.2002"
-  },
-  {
-    file: "song-012.webp",
-    caption: "דודו בן 25"
-  },
-  {
-    file: "song-013.webp",
-    caption: "ה 63 - להולדת איילת שלכט"
-  },
-  {
-    file: "song-014.webp",
-    caption: "הבא כוח א 1967"
-  },
-  {
-    file: "song-015.webp",
-    caption: "הבא כוח ב"
-  },
-  {
-    file: "song-016.webp",
-    caption: "הבא כוח ג"
-  },
-  {
-    file: "song-017.webp",
-    caption: "הבא כוח ד"
-  },
-  {
-    file: "song-018.webp",
-    caption: "הדס ודודו להולדת יובל וטל 2000"
-  },
-  {
-    file: "song-019.webp",
-    caption: "הדס ודודו להולדת מיכל 1998"
-  },
-  {
-    file: "song-020.webp",
-    caption: "הדס סיום יב א"
-  },
-  {
-    file: "song-021.webp",
-    caption: "הדס סיום יב ב"
-  },
-  {
-    file: "song-022.webp",
-    caption: "הדס סיום יב"
-  },
-  {
-    file: "song-023.webp",
-    caption: "הזמנה לחג ה 10"
-  },
-  {
-    file: "song-024.webp",
-    caption: "השטפון הגדול א"
-  },
-  {
-    file: "song-025.webp",
-    caption: "השטפון הגדול ב"
-  },
-  {
-    file: "song-026.webp",
-    caption: "התחלה 1967"
-  },
-  {
-    file: "song-027.webp",
-    caption: "זיו פורת לחתונה 1991"
-  },
-  {
-    file: "song-028.webp",
-    caption: "חג הבוגרים הראשון - הכתה של דודו 1980"
-  },
-  {
-    file: "song-029.webp",
-    caption: "חגי בן 53"
-  },
-  {
-    file: "song-030.webp",
-    caption: "חיים 1977"
-  },
-  {
-    file: "song-031.webp",
-    caption: "חנוכה 1990"
-  },
-  {
-    file: "song-032.webp",
-    caption: "חנוכה 1993"
-  },
-  {
-    file: "song-033.webp",
-    caption: "חנוכה"
-  },
-  {
-    file: "song-034.webp",
-    caption: "טיוטת שיר הטלפון"
-  },
-  {
-    file: "song-035.webp",
-    caption: "יום הזיכרון ופתיח לשיר אבל"
-  },
-  {
-    file: "song-036.webp",
-    caption: "יום הילד 1981"
-  },
-  {
-    file: "song-037.webp",
-    caption: "יום העמצאות 1998"
-  },
-  {
-    file: "song-038.webp",
-    caption: "יום העמצאות 1999"
-  },
-  {
-    file: "song-039.webp",
-    caption: "יום העצמאות 1989"
-  },
-  {
-    file: "song-040.webp",
-    caption: "יותם כיתה א 2000"
-  },
-  {
-    file: "song-041.webp",
-    caption: "כרמית בת 40"
-  },
-  {
-    file: "song-042.webp",
-    caption: "לדגן בר לבן נוב 1991"
-  },
-  {
-    file: "song-043.webp",
-    caption: "להולדת עופר - כתב יד"
-  },
-  {
-    file: "song-044.webp",
-    caption: "לחגי בלכתו"
-  },
-  {
-    file: "song-045.webp",
-    caption: "מוטי בן 40"
-  },
-  {
-    file: "song-046.webp",
-    caption: "מחר 1967"
-  },
-  {
-    file: "song-047.webp",
-    caption: "מייקל בן 50"
-  },
-  {
-    file: "song-048.webp",
-    caption: "מרה בן 70"
-  },
-  {
-    file: "song-049.webp",
-    caption: "נזכור2"
-  },
-  {
-    file: "song-050.webp",
-    caption: "ניו יורק סיום"
-  },
-  {
-    file: "song-051.webp",
-    caption: "ניו יורק"
-  },
-  {
-    file: "song-052.webp",
-    caption: "נעלי הבית"
-  },
-  {
-    file: "song-053.webp",
-    caption: "נעמי זולר בת 50"
-  },
-  {
-    file: "song-054.webp",
-    caption: "סבתא בת 90 א"
-  },
-  {
-    file: "song-055.webp",
-    caption: "סבתא בת 90 ב"
-  },
-  {
-    file: "song-056.webp",
-    caption: "סבתא בת 90 ג"
-  },
-  {
-    file: "song-057.webp",
-    caption: "סבתא בת 95"
-  },
-  {
-    file: "song-058.webp",
-    caption: "סבתא בת 99"
-  },
-  {
-    file: "song-059.webp",
-    caption: "סוכות 1992"
-  },
-  {
-    file: "song-060.webp",
-    caption: "סקפה בן 50"
-  },
-  {
-    file: "song-061.webp",
-    caption: "עמרי כיתה א 1999"
-  },
-  {
-    file: "song-062.webp",
-    caption: "עמרי כיתה ב 2000"
-  },
-  {
-    file: "song-063.webp",
-    caption: "עשרים וחמש שנה לעין יהב בכתב יד"
-  },
-  {
-    file: "song-064.webp",
-    caption: "עשרים וחמש שנה לעין יהב"
-  },
-  {
-    file: "song-065.webp",
-    caption: "פורים 1968"
-  },
-  {
-    file: "song-066.webp",
-    caption: "פורים 1997 א"
-  },
-  {
-    file: "song-067.webp",
-    caption: "פורים 1997 ב"
-  },
-  {
-    file: "song-068.webp",
-    caption: "פתק לרותי בטיול בירדן קיץ 1997"
-  },
-  {
-    file: "song-069.webp",
-    caption: "צ'צ'ה וחגי - חתונת הכסף 1986"
-  },
-  {
-    file: "song-070.webp",
-    caption: "ציפי ובת שבע הגננות יוני 1970"
-  },
-  {
-    file: "song-071.webp",
-    caption: "קטנה חלקת אדם"
-  },
-  {
-    file: "song-072.webp",
-    caption: "ראש השנה 1981"
-  },
-  {
-    file: "song-073.webp",
-    caption: "ראש השנה 1983"
-  },
-  {
-    file: "song-074.webp",
-    caption: "ראש השנה 1996"
-  },
-  {
-    file: "song-075.webp",
-    caption: "ראש השנה 1997"
-  },
-  {
-    file: "song-076.webp",
-    caption: "רותי חמישים"
-  },
-  {
-    file: "song-077.webp",
-    caption: "רותי שבעים גירסה ב"
-  },
-  {
-    file: "song-078.webp",
-    caption: "רותי שבעים"
-  },
-  {
-    file: "song-079.webp",
-    caption: "רותי שישים"
-  },
-  {
-    file: "song-080.webp",
-    caption: "ריח המור א"
-  },
-  {
-    file: "song-081.webp",
-    caption: "ריח המור ב"
-  },
-  {
-    file: "song-082.webp",
-    caption: "רתם בת 15"
-  },
-  {
-    file: "song-083.webp",
-    caption: "רתם בת 15+דודו לדרום אמריקה"
-  },
-  {
-    file: "song-084.webp",
-    caption: "רתם בת 18"
-  },
-  {
-    file: "song-085.webp",
-    caption: "רתם בת מצווה א"
-  },
-  {
-    file: "song-086.webp",
-    caption: "רתם בת מצווה ב"
-  },
-  {
-    file: "song-087.webp",
-    caption: "רתם בת מצווה ג"
-  },
-  {
-    file: "song-088.webp",
-    caption: "רתם וקובי חתונה"
-  },
-  {
-    file: "song-089.webp",
-    caption: "רתם וקובי חתונה2"
-  },
-  {
-    file: "song-090.webp",
-    caption: "רתם וקובי להולדת רוני 2005"
-  },
-  {
-    file: "song-091.webp",
-    caption: "רתם וקובי להולדת שחר 2003"
-  },
-  {
-    file: "song-092.webp",
-    caption: "רתם לגיוס"
-  },
-  {
-    file: "song-093.webp",
-    caption: "רתם להולדת עופר 1998"
-  },
-  {
-    file: "song-094.webp",
-    caption: "רתם ניחומים"
-  },
-  {
-    file: "song-095.webp",
-    caption: "רתם סיום יב"
-  },
-  {
-    file: "song-096.webp",
-    caption: "שבע בת 50 א"
-  },
-  {
-    file: "song-097.webp",
-    caption: "שבע בת 50 ב"
-  },
-  {
-    file: "song-098.webp",
-    caption: "שבע בת 60"
-  },
-  {
-    file: "song-099.webp",
-    caption: "שי נוסע לקצקילס"
-  },
-  {
-    file: "song-100.webp",
-    caption: "שי שישים ושלוש"
-  },
-  {
-    file: "song-101.webp",
-    caption: "שי שישים"
-  },
-  {
-    file: "song-102.webp",
-    caption: "שיר המיכון א"
-  },
-  {
-    file: "song-103.webp",
-    caption: "שיר המיכון ב"
-  },
-  {
-    file: "song-104.webp",
-    caption: "שיר לראש השנה 1996 שי בן אליהו"
-  },
-  {
-    file: "song-105.webp",
-    caption: "שכול 1979"
-  },
-  {
-    file: "song-106.webp",
-    caption: "שלום נוסף"
-  },
-  {
-    file: "song-107.webp",
-    caption: "שלושים לעליה 1989"
-  },
-  {
-    file: "song-108.webp",
-    caption: "גד ודן סיום במשמר הנגב"
-  },
-  {
-    file: "song-109.webp",
-    caption: "דוד נחמיאס 1995"
-  },
-  {
-    file: "song-110.webp",
-    caption: "המעבר לביהס האזורי 1978"
-  },
-  {
-    file: "song-111.webp",
-    caption: "זיידה אזרח כבוד 1995"
-  },
-  {
-    file: "song-112.webp",
-    caption: "לארבעת המוסקטרים 1994 א"
-  },
-  {
-    file: "song-113.webp",
-    caption: "לארבעת המוסקטרים 1994 ב"
-  },
-  {
-    file: "song-114.webp",
-    caption: "לעידן גדיש 1997"
-  },
-  {
-    file: "song-115.webp",
-    caption: "סוף שנה"
-  },
-  {
-    file: "song-116.webp",
-    caption: "עודד בן מנחם בסיום ניהול ביהס"
-  },
-  {
-    file: "song-117.webp",
-    caption: "קיבוץ גלויות 1980"
-  },
-  {
-    file: "song-118.webp",
-    caption: "קיבוץ גלויות 1980 – כתב יד"
-  },
-  {
-    file: "song-119.webp",
-    caption: "שלום 1980"
-  },
-  {
-    file: "song-120.webp",
-    caption: "שלמי תודה לרבין 1995 א"
-  },
-  {
-    file: "song-121.webp",
-    caption: "שלמי תודה לרבין 1995 ב"
-  },
-  {
-    file: "song-122.webp",
-    caption: "ברכה למסיימי י\"ב מחזור ג', 1984"
-  },
-  {
-    file: "song-123.webp",
-    caption: "ה\"בא כוח\" – כתב שי בן אליהו"
-  },
-  {
-    file: "song-124.webp",
-    caption: "שירו של שי – \"מחר\""
-  }
+  { file: "orla-50.webp", caption: "אורלה בת 50" },
+  { file: "orla-60.webp", caption: "אורלה בת 60" },
+  { file: "al-tachshevu-1968.webp", caption: "\"אל תחשבו שאיננו יודעים\", 1968" },
+  { file: "amnon-navon-60.webp", caption: "אמנון נבון בן 60" },
+  { file: "razi-uri-bar-mitzvah.webp", caption: "לבר המצווה של רזי עורי" },
+  { file: "bereshit.webp", caption: "\"בראשית\"" },
+  { file: "parents-25th.webp", caption: "ברכה להורינו – חג ה־25" },
+  { file: "hanukkah-blessing-rotem.webp", caption: "ברכה לחנוכה – נכתב עבור רתם למסיבת חנוכה בבית הספר" },
+  { file: "rosh-hashanah-blessing.webp", caption: "ברכה לראש השנה" },
+  { file: "dudu-40.webp", caption: "דודו בן 40, 11.2.2002" },
+  { file: "dudu-25.webp", caption: "דודו בן 25" },
+  { file: "ayelet-schlecht-birth.webp", caption: "ה־63 – להולדת איילת שלכט" },
+  { file: "haba-koach-1.webp", caption: "\"הבא כוח\" – חלק א', 1967" },
+  { file: "haba-koach-2.webp", caption: "\"הבא כוח\" – חלק ב'" },
+  { file: "haba-koach-3.webp", caption: "\"הבא כוח\" – חלק ג'" },
+  { file: "haba-koach-4.webp", caption: "\"הבא כוח\" – חלק ד'" },
+  { file: "hadas-dudu-yuval-tal-2000.webp", caption: "להדס ודודו להולדת יובל וטל, 2000" },
+  { file: "hadas-dudu-michal-1998.webp", caption: "להדס ודודו להולדת מיכל, 1998" },
+  { file: "hadas-graduation-1.webp", caption: "הדס מסיימת י\"ב – חלק א'" },
+  { file: "hadas-graduation-2.webp", caption: "הדס מסיימת י\"ב – חלק ב'" },
+  { file: "hadas-graduation.webp", caption: "הדס מסיימת י\"ב" },
+  { file: "ein-yahav-10th-invitation.webp", caption: "הזמנה לחג העשור לעין יהב" },
+  { file: "great-flood-1.webp", caption: "\"השיטפון הגדול\" – חלק א'" },
+  { file: "great-flood-2.webp", caption: "\"השיטפון הגדול\" – חלק ב'" },
+  { file: "hatchala-1967.webp", caption: "\"התחלה\", 1967" },
+  { file: "ziv-porat-wedding-1991.webp", caption: "לזיו פורת ליום חתונתה, 1991" },
+  { file: "first-graduates-1980.webp", caption: "חג הבוגרים הראשון – הכיתה של דודו, 1980" },
+  { file: "hagi-53.webp", caption: "חגי בן 53" },
+  { file: "haim-1977.webp", caption: "\"חיים\", 1977" },
+  { file: "hanukkah-1990.webp", caption: "חנוכה, 1990" },
+  { file: "hanukkah-1993.webp", caption: "חנוכה, 1993" },
+  { file: "hanukkah.webp", caption: "חנוכה" },
+  { file: "telephone-song-draft.webp", caption: "טיוטת \"שיר הטלפון\"" },
+  { file: "memorial-day.webp", caption: "יום הזיכרון ופתיח לשיר אבל" },
+  { file: "childrens-day-1981.webp", caption: "יום הילד, 1981" },
+  { file: "independence-day-1998.webp", caption: "יום העצמאות, 1998" },
+  { file: "independence-day-1999.webp", caption: "יום העצמאות, 1999" },
+  { file: "independence-day-1989.webp", caption: "יום העצמאות, 1989" },
+  { file: "yotam-first-grade-2000.webp", caption: "יותם עולה לכיתה א', 2000" },
+  { file: "carmit-40.webp", caption: "כרמית בת 40" },
+  { file: "dagan-bar-lavan-1991.webp", caption: "לדגן בר־לבן, נובמבר 1991" },
+  { file: "ofer-birth-manuscript.webp", caption: "להולדת עופר – כתב יד" },
+  { file: "hagi-farewell.webp", caption: "לחגי בלכתו" },
+  { file: "moti-40.webp", caption: "מוטי בן 40" },
+  { file: "machar-1967.webp", caption: "\"מחר\", 1967" },
+  { file: "michael-50.webp", caption: "מייקל בן 50" },
+  { file: "mara-70.webp", caption: "מרה בן 70" },
+  { file: "nizkor-2.webp", caption: "\"נזכור\" – גרסה שנייה" },
+  { file: "new-york-ending.webp", caption: "\"ניו יורק\" – סיום" },
+  { file: "new-york.webp", caption: "\"ניו יורק\"" },
+  { file: "naalei-habait.webp", caption: "\"נעלי הבית\"" },
+  { file: "naomi-zoller-50.webp", caption: "נעמי זולר בת 50" },
+  { file: "savta-90-1.webp", caption: "סבתא בת 90 – חלק א'" },
+  { file: "savta-90-2.webp", caption: "סבתא בת 90 – חלק ב'" },
+  { file: "savta-90-3.webp", caption: "סבתא בת 90 – חלק ג'" },
+  { file: "savta-95.webp", caption: "סבתא בת 95" },
+  { file: "savta-99.webp", caption: "סבתא בת 99" },
+  { file: "sukkot-1992.webp", caption: "סוכות, 1992" },
+  { file: "skapa-50.webp", caption: "סקפה בן 50" },
+  { file: "omri-first-grade-1999.webp", caption: "עמרי עולה לכיתה א', 1999" },
+  { file: "omri-second-grade-2000.webp", caption: "עמרי עולה לכיתה ב', 2000" },
+  { file: "ein-yahav-25-manuscript.webp", caption: "25 שנה לעין יהב – כתב יד" },
+  { file: "ein-yahav-25.webp", caption: "25 שנה לעין יהב" },
+  { file: "purim-1968.webp", caption: "פורים, 1968" },
+  { file: "purim-1997-1.webp", caption: "פורים 1997 – חלק א'" },
+  { file: "purim-1997-2.webp", caption: "פורים 1997 – חלק ב'" },
+  { file: "note-to-ruti-jordan-1997.webp", caption: "פתק לרותי בטיול בירדן, קיץ 1997" },
+  { file: "cheche-hagi-silver-wedding.webp", caption: "צ'צ'ה וחגי – חתונת הכסף, 1986" },
+  { file: "kindergarten-teachers-1970.webp", caption: "ציפי ובת שבע הגננות, יוני 1970" },
+  { file: "ktana-chelkat-adam.webp", caption: "\"קטנה חלקת אדם\"" },
+  { file: "rosh-hashanah-1981.webp", caption: "ראש השנה, 1981" },
+  { file: "rosh-hashanah-1983.webp", caption: "ראש השנה, 1983" },
+  { file: "rosh-hashanah-1996.webp", caption: "ראש השנה, 1996" },
+  { file: "rosh-hashanah-1997.webp", caption: "ראש השנה, 1997" },
+  { file: "ruti-50.webp", caption: "רותי בת 50" },
+  { file: "ruti-70-2.webp", caption: "רותי בת 70 – גרסה ב'" },
+  { file: "ruti-70.webp", caption: "רותי בת 70" },
+  { file: "ruti-60.webp", caption: "רותי בת 60" },
+  { file: "reach-hamor-1.webp", caption: "\"ריח המור\" – חלק א'" },
+  { file: "reach-hamor-2.webp", caption: "\"ריח המור\" – חלק ב'" },
+  { file: "rotem-15.webp", caption: "רתם בת 15" },
+  { file: "rotem-15-dudu-south-america.webp", caption: "רתם בת 15 ודודו יוצא לדרום אמריקה" },
+  { file: "rotem-18.webp", caption: "רתם בת 18" },
+  { file: "rotem-bat-mitzvah-1.webp", caption: "רתם – בת המצווה, חלק א'" },
+  { file: "rotem-bat-mitzvah-2.webp", caption: "רתם – בת המצווה, חלק ב'" },
+  { file: "rotem-bat-mitzvah-3.webp", caption: "רתם – בת המצווה, חלק ג'" },
+  { file: "rotem-kobi-wedding.webp", caption: "רתם וקובי – ליום החתונה" },
+  { file: "rotem-kobi-wedding-2.webp", caption: "רתם וקובי – ליום החתונה, גרסה שנייה" },
+  { file: "rotem-kobi-roni-2005.webp", caption: "רתם וקובי להולדת רוני, 2005" },
+  { file: "rotem-kobi-shahar-2003.webp", caption: "רתם וקובי להולדת שחר, 2003" },
+  { file: "rotem-enlistment.webp", caption: "רתם מתגייסת" },
+  { file: "rotem-ofer-1998.webp", caption: "רתם להולדת עופר, 1998" },
+  { file: "rotem-condolences.webp", caption: "רתם – ניחומים" },
+  { file: "rotem-graduation.webp", caption: "רתם מסיימת י\"ב" },
+  { file: "sheva-50-1.webp", caption: "שבע בת 50 – חלק א'" },
+  { file: "sheva-50-2.webp", caption: "שבע בת 50 – חלק ב'" },
+  { file: "sheva-60.webp", caption: "שבע בת 60" },
+  { file: "shai-catskills.webp", caption: "שי נוסע לקטסקילס" },
+  { file: "shai-63.webp", caption: "שי בן 63" },
+  { file: "shai-60.webp", caption: "שי בן 60" },
+  { file: "shir-hamichun-1.webp", caption: "\"שיר המיכון\" – חלק א'" },
+  { file: "shir-hamichun-2.webp", caption: "\"שיר המיכון\" – חלק ב'" },
+  { file: "rosh-hashanah-song-1996.webp", caption: "שיר לראש השנה, 1996" },
+  { file: "shchol-1979.webp", caption: "\"שכול\", 1979" },
+  { file: "shalom-nosaf.webp", caption: "\"שלום נוסף\"" },
+  { file: "aliyah-30-1989.webp", caption: "שלושים שנה לעלייה על הקרקע, 1989" },
+  { file: "gad-dan-mishmar-hanegev.webp", caption: "גד ודן – סיום במשמר הנגב" },
+  { file: "david-nachmias-1995.webp", caption: "דוד נחמיאס, 1995" },
+  { file: "regional-school-1978.webp", caption: "המעבר לבית הספר האזורי, 1978" },
+  { file: "zeide-honorary-citizen-1995.webp", caption: "זיידה – אזרח כבוד, 1995" },
+  { file: "four-musketeers-1994-1.webp", caption: "לארבעת המוסקטרים, 1994 – חלק א'" },
+  { file: "four-musketeers-1994-2.webp", caption: "לארבעת המוסקטרים, 1994 – חלק ב'" },
+  { file: "idan-gadish-1997.webp", caption: "לעידן גדיש, 1997" },
+  { file: "year-end.webp", caption: "סוף שנה" },
+  { file: "oded-ben-menachem.webp", caption: "לעודד בן מנחם בסיום ניהול בית הספר" },
+  { file: "kibbutz-galuyot-1980.webp", caption: "\"קיבוץ גלויות\", 1980" },
+  { file: "kibbutz-galuyot-1980-manuscript.webp", caption: "\"קיבוץ גלויות\", 1980 – כתב יד" },
+  { file: "shalom-1980.webp", caption: "\"שלום\", 1980" },
+  { file: "rabin-thanks-1995-1.webp", caption: "שלמי תודה לרבין, 1995 – חלק א'" },
+  { file: "rabin-thanks-1995-2.webp", caption: "שלמי תודה לרבין, 1995 – חלק ב'" },
+  { file: "grade-12-class-3-1984.webp", caption: "ברכה למסיימי י\"ב מחזור ג', 1984" },
+  { file: "haba-koach-manuscript.webp", caption: "\"הבא כוח\" – בכתב ידו של שי" },
+  { file: "machar-shai.webp", caption: "\"מחר\" – שירו של שי" }
 ];
