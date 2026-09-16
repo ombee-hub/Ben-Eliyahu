@@ -39,7 +39,8 @@ window.shaiSongs = [
   },
   {
     file: "song-011.webp",
-    caption: "דודו ארבעים"
+    v: 2,
+    caption: "דודו בן 40, 11.2.2002"
   },
   {
     file: "song-012.webp",
