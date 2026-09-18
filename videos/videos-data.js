@@ -9,5 +9,11 @@ window.siteVideos = [
   { file: "peres-tribute.mp4", caption: "דבר נשיא המדינה שמעון פרס – ערב ההוקרה לשי" },
   { file: "rubinstein-tribute.mp4", caption: "דבר שופט בית המשפט העליון אליקים רובינשטיין על שי" },
   { file: "haim-song.mp4", caption: "השיר \"חיים\" – מתוך ערב ההוקרה לשי" },
-  { file: "mi-shekulo-ahava.mp4", caption: "\"מי שכולו אהבה\" – מילים: שי בן אליהו, בביצוע בועז הורוביץ" }
+  { file: "mi-shekulo-ahava.mp4", caption: "\"מי שכולו אהבה\" – מילים: שי בן אליהו, בביצוע בועז הורוביץ" },
+  { file: "wadi-rum-road.mp4", caption: "טיול המשפחה בירדן – בכניסה לוואדי ראם" },
+  { file: "wadi-rum-jeeps.mp4", caption: "טיול המשפחה בירדן – מסע הג'יפים בוואדי ראם" },
+  { file: "wadi-rum-stop.mp4", portrait: true, caption: "טיול המשפחה בירדן – עצירה בוואדי ראם" },
+  { file: "wadi-rum-rocks.mp4", caption: "טיול המשפחה בירדן – על הסלעים בוואדי ראם" },
+  { file: "wadi-rum-camp.mp4", caption: "טיול המשפחה בירדן – המאהל הבדואי בוואדי ראם" },
+  { file: "petra-walk.mp4", portrait: true, caption: "טיול המשפחה בירדן – מטיילים בפטרה" }
 ];
