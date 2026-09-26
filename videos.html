@@ -81,7 +81,7 @@
       if (!grid || !vids.length) return;
       grid.innerHTML = vids.map(function(v){
         return '<div class="video-card home-video' + (v.portrait ? ' video-portrait' : '') + ' reveal">'
-          + '<video controls preload="metadata" playsinline>'
+          + '<video controls preload="none" playsinline poster="videos/posters/' + encodeURIComponent(v.file.replace(/\.mp4$/, '.webp')) + (v.v ? '?v=' + v.v : '') + '">'
           + '<source src="videos/' + encodeURIComponent(v.file) + (v.v ? '?v=' + v.v : '') + '" type="video/mp4">'
           + 'הדפדפן שלך אינו תומך בניגון וידאו.'
           + '</video>'
