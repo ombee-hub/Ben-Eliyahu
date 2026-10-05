@@ -19,7 +19,7 @@ window.siteVideos = [
   { file: "farewell-grandchildren.mp4", v: 2, caption: "הפרידה מהנכדים, 3.10.2025" },
   { yt: "VKS66kcg_e0", caption: "דבר נשיא המדינה שמעון פרס – ערב ההוקרה לשי" },
   { yt: "DybjZ046z-I", caption: "דבר שופט בית המשפט העליון אליקים רובינשטיין על שי" },
-  { file: "haim-song.mp4", caption: "השיר \"חיים\" – מתוך ערב ההוקרה לשי" },
+  { yt: "wXnlPCe9mAU", caption: "השיר \"חיים\" – מתוך ערב ההוקרה לשי" },
   { file: "mi-shekulo-ahava.mp4", caption: "\"מי שכולו אהבה\" – מילים: שי בן אליהו, בביצוע בועז הורוביץ" },
   { file: "wadi-rum-road.mp4", caption: "טיול המשפחה בירדן – בכניסה לוואדי ראם" },
   { file: "wadi-rum-jeeps.mp4", caption: "טיול המשפחה בירדן – מסע הג'יפים בוואדי ראם" },
