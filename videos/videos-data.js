@@ -2,6 +2,7 @@
 // portrait: true לסרטון אנכי (טלפון). v: מספר גרסה – העלו אותו אם החלפתם קובץ קיים באותו שם.
 window.siteVideos = [
   { yt: "crDkWu53HtA", caption: "סיפור על הערבה" },
+  { yt: "rexjUP2Jl0Q", caption: "\"בן גוריון של הערבה\" – על שי בן אליהו" },
   { file: "arava-history.mp4", caption: "תיעוד היסטורי מן הערבה – חלק א'" },
   { file: "arava-history-2.mp4", caption: "תיעוד היסטורי מן הערבה – חלק ב'" },
   { file: "ben-gurion-letter.mp4", caption: "המכתב של בן גוריון" },
