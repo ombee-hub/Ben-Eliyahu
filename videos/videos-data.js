@@ -3,6 +3,7 @@
 window.siteVideos = [
   { yt: "crDkWu53HtA", caption: "סיפור על הערבה" },
   { yt: "rexjUP2Jl0Q", caption: "\"בן גוריון של הערבה\" – על שי בן אליהו" },
+  { yt: "zQA8lQK9hXU", caption: "הערבה" },
   { file: "arava-history.mp4", caption: "תיעוד היסטורי מן הערבה – חלק א'" },
   { file: "arava-history-2.mp4", caption: "תיעוד היסטורי מן הערבה – חלק ב'" },
   { file: "ben-gurion-letter.mp4", caption: "המכתב של בן גוריון" },
