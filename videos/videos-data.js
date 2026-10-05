@@ -16,7 +16,7 @@ window.siteVideos = [
   { file: "ruti-grandchildren-1.mp4", v: 2, caption: "רותי מוקפת במשפחה, 3.10.2025" },
   { file: "ruti-grandchildren-2.mp4", v: 2, caption: "רותי עם הנכדות, 3.10.2025" },
   { file: "farewell-grandchildren.mp4", v: 2, caption: "הפרידה מהנכדים, 3.10.2025" },
-  { file: "peres-tribute.mp4", caption: "דבר נשיא המדינה שמעון פרס – ערב ההוקרה לשי" },
+  { yt: "VKS66kcg_e0", caption: "דבר נשיא המדינה שמעון פרס – ערב ההוקרה לשי" },
   { yt: "DybjZ046z-I", caption: "דבר שופט בית המשפט העליון אליקים רובינשטיין על שי" },
   { file: "haim-song.mp4", caption: "השיר \"חיים\" – מתוך ערב ההוקרה לשי" },
   { file: "mi-shekulo-ahava.mp4", caption: "\"מי שכולו אהבה\" – מילים: שי בן אליהו, בביצוע בועז הורוביץ" },
