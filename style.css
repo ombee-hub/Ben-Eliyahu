@@ -2615,3 +2615,7 @@ html.a11y-saturation-high { filter: saturate(1.7); }
 .letter-more summary:hover { background: var(--gold); color: #fff; }
 .letter-more[open] summary { display: none; }
 @media (max-width: 700px) { .letter-box { padding: 1.6rem 1.3rem; } .letter-box p { font-size: 0.95rem; } }
+
+/* YouTube embeds in video cards */
+.video-card iframe { display: block; width: 100%; aspect-ratio: 16 / 9; height: auto; border: 0; background: #000; }
+.videos-page .home-video iframe { flex: none; }

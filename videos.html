@@ -14,7 +14,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media=&#39;all&#39;"><noscript><link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&display=swap" rel="stylesheet"></noscript>
-<link rel="stylesheet" href="style.css?v=35">
+<link rel="stylesheet" href="style.css?v=36">
 <link rel="icon" type="image/png" href="images/icon-sahi-ruth.png">
 <link rel="apple-touch-icon" href="images/ruth-shai-logo.png">
 <title>סרטונים – רותי ושי בן אליהו</title>
@@ -73,18 +73,24 @@
     <div class="home-videos" id="videosGrid"></div>
   </div>
 
-  <script src="videos/videos-data.js?v=9"></script>
+  <script src="videos/videos-data.js?v=10"></script>
   <script>
     (function(){
       var vids = window.siteVideos || [];
       var grid = document.getElementById('videosGrid');
       if (!grid || !vids.length) return;
       grid.innerHTML = vids.map(function(v){
+        var media;
+        if (v.yt) {
+          media = '<iframe src="https://www.youtube-nocookie.com/embed/' + encodeURIComponent(v.yt) + '?rel=0" title="' + (v.caption || '') + '" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';
+        } else {
+          media = '<video controls preload="none" playsinline poster="videos/posters/' + encodeURIComponent(v.file.replace(/\.mp4$/, '.webp')) + (v.v ? '?v=' + v.v : '') + '">'
+            + '<source src="videos/' + encodeURIComponent(v.file) + (v.v ? '?v=' + v.v : '') + '" type="video/mp4">'
+            + 'הדפדפן שלך אינו תומך בניגון וידאו.'
+            + '</video>';
+        }
         return '<div class="video-card home-video' + (v.portrait ? ' video-portrait' : '') + ' reveal">'
-          + '<video controls preload="none" playsinline poster="videos/posters/' + encodeURIComponent(v.file.replace(/\.mp4$/, '.webp')) + (v.v ? '?v=' + v.v : '') + '">'
-          + '<source src="videos/' + encodeURIComponent(v.file) + (v.v ? '?v=' + v.v : '') + '" type="video/mp4">'
-          + 'הדפדפן שלך אינו תומך בניגון וידאו.'
-          + '</video>'
+          + media
           + '<div class="video-caption">' + (v.caption || '') + '</div>'
         + '</div>';
       }).join('');
