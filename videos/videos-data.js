@@ -6,6 +6,7 @@ window.siteVideos = [
   { file: "ben-gurion-letter.mp4", caption: "המכתב של בן גוריון" },
   { file: "ruti-memorial.mp4", v: 2, caption: "רותי בן אליהו ז\"ל" },
   { file: "ruti-interview.mp4", v: 2, caption: "ראיון עם רותי בן אליהו" },
+  { yt: "42hG1zdEVes", caption: "יום הולדת 50 לרותי" },
   { file: "ruti-levivot-2023.mp4", v: 2, caption: "רותי מכינה לביבות, ינואר 2023" },
   { file: "ruti-livingroom-2023.mp4", v: 2, caption: "רותי בסלון ביתה, פברואר 2023" },
   { file: "ruti-home-2023.mp4", v: 2, caption: "רותי בביתה, מרץ 2023" },
