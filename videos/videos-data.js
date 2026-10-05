@@ -1,6 +1,7 @@
 // סרטוני האתר – להוספת סרטון: העלו קובץ mp4 לתיקיית videos/ והוסיפו שורה כאן.
 // portrait: true לסרטון אנכי (טלפון). v: מספר גרסה – העלו אותו אם החלפתם קובץ קיים באותו שם.
 window.siteVideos = [
+  { yt: "crDkWu53HtA", caption: "סיפור על הערבה" },
   { file: "arava-history.mp4", caption: "תיעוד היסטורי מן הערבה – חלק א'" },
   { file: "arava-history-2.mp4", caption: "תיעוד היסטורי מן הערבה – חלק ב'" },
   { file: "ben-gurion-letter.mp4", caption: "המכתב של בן גוריון" },
