@@ -10,7 +10,7 @@ window.siteVideos = [
   { yt: "42hG1zdEVes", caption: "יום הולדת 50 לרותי – \"מי שכולו אהבה\", מילים: שי בן אליהו, בביצוע בועז הורוביץ" },
   { file: "ruti-levivot-2023.mp4", v: 2, caption: "רותי מכינה לביבות, ינואר 2023" },
   { file: "ruti-livingroom-2023.mp4", v: 2, caption: "רותי בסלון ביתה, פברואר 2023" },
-  { file: "ruti-home-2023.mp4", v: 2, caption: "רותי בביתה, מרץ 2023" },
+  { yt: "h8cyHoFIdT0", caption: "רותי בביתה, מרץ 2023" },
   { file: "ruti-home-2023-2.mp4", v: 2, caption: "רותי בביתה, מרץ 2023 – חלק ב'" },
   { file: "ruti-home-2023-3.mp4", v: 2, caption: "רותי בביתה, מרץ 2023 – חלק ג'" },
   { file: "sufganiyot-hanukkah-2023.mp4", v: 2, caption: "רותי מכינה סופגניות עם הנכדה, חנוכה 2023" },
