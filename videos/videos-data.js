@@ -26,5 +26,5 @@ window.siteVideos = [
   { file: "wadi-rum-stop.mp4", v: 2, caption: "טיול המשפחה בירדן – עצירה בוואדי ראם" },
   { file: "wadi-rum-rocks.mp4", caption: "טיול המשפחה בירדן – על הסלעים בוואדי ראם" },
   { file: "wadi-rum-camp.mp4", caption: "טיול המשפחה בירדן – המאהל הבדואי בוואדי ראם" },
-  { yt: "BxfpwJw5Umc", caption: "טיול המשפחה בירדן – מטיילים בפטרה" }
+  { yt: "BxfpwJw5Umc", caption: "טיול לפטרה – יום הולדת 50 לכרמית" }
 ];
