@@ -17,7 +17,7 @@ window.siteVideos = [
   { yt: "zf0pv9Zi4rQ", caption: "רותי מלמדת את רתם, פסח 2024" },
   { file: "ruti-grandchildren-1.mp4", v: 2, caption: "רותי מוקפת במשפחה, 3.10.2025" },
   { file: "ruti-grandchildren-2.mp4", v: 2, caption: "רותי עם הנכדות, 3.10.2025" },
-  { file: "farewell-grandchildren.mp4", v: 2, caption: "הפרידה מהנכדים, 3.10.2025" },
+  { yt: "vn1JdltYcJc", caption: "הפרידה מהנכדים, 3.10.2025" },
   { yt: "VKS66kcg_e0", caption: "דבר נשיא המדינה שמעון פרס – ערב ההוקרה לשי" },
   { yt: "DybjZ046z-I", caption: "דבר שופט בית המשפט העליון אליקים רובינשטיין על שי" },
   { yt: "wXnlPCe9mAU", caption: "השיר \"חיים\" – מתוך ערב ההוקרה לשי" },
