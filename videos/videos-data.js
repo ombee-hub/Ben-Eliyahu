@@ -22,7 +22,7 @@ window.siteVideos = [
   { yt: "DybjZ046z-I", caption: "השופט אליקים רובינשטיין נפרד משי בן אליהו" },
   { yt: "wXnlPCe9mAU", caption: "השיר \"חיים\" – מתוך ערב ההוקרה לשי" },
   { file: "wadi-rum-road.mp4", caption: "טיול המשפחה בירדן – בכניסה לוואדי ראם" },
-  { file: "wadi-rum-jeeps.mp4", caption: "טיול המשפחה בירדן – מסע הג'יפים בוואדי ראם" },
+  { yt: "OA-aLXaAVJk", caption: "מסע הג'יפים בוואדי ראם – טיול יום הולדת 50 לכרמית" },
   { file: "wadi-rum-stop.mp4", v: 2, caption: "טיול המשפחה בירדן – עצירה בוואדי ראם" },
   { file: "wadi-rum-rocks.mp4", caption: "טיול המשפחה בירדן – על הסלעים בוואדי ראם" },
   { file: "wadi-rum-camp.mp4", caption: "טיול המשפחה בירדן – המאהל הבדואי בוואדי ראם" },
