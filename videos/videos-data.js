@@ -13,7 +13,7 @@ window.siteVideos = [
   { yt: "h8cyHoFIdT0", caption: "רותי מספרת אצל רתם, מרץ 2023 – חלק א'" },
   { yt: "TqUVEDzxBqc", caption: "רותי מספרת אצל רתם, מרץ 2023 – חלק ב'" },
   { file: "ruti-home-2023-3.mp4", v: 2, caption: "רותי מספרת אצל רתם, מרץ 2023 – חלק ג'" },
-  { file: "sufganiyot-hanukkah-2023.mp4", v: 2, caption: "רותי מכינה סופגניות עם הנכדה, חנוכה 2023" },
+  { yt: "U6i2a68HNyA", caption: "רותי מלמדת את שחר להכין סופגניות, חנוכה 2023" },
   { yt: "zf0pv9Zi4rQ", caption: "רותי מלמדת את רתם, פסח 2024" },
   { file: "ruti-grandchildren-1.mp4", v: 2, caption: "רותי מוקפת במשפחה, 3.10.2025" },
   { file: "ruti-grandchildren-2.mp4", v: 2, caption: "רותי עם הנכדות, 3.10.2025" },
@@ -25,6 +25,6 @@ window.siteVideos = [
   { yt: "OA-aLXaAVJk", caption: "מסע הג'יפים בוואדי ראם – טיול יום הולדת 50 לכרמית" },
   { file: "wadi-rum-stop.mp4", v: 2, caption: "טיול המשפחה בירדן – עצירה בוואדי ראם" },
   { file: "wadi-rum-rocks.mp4", caption: "טיול המשפחה בירדן – על הסלעים בוואדי ראם" },
-  { file: "wadi-rum-camp.mp4", caption: "טיול המשפחה בירדן – המאהל הבדואי בוואדי ראם" },
+  { yt: "ydOD2Ji5ulQ", caption: "המאהל הבדואי בוואדי ראם – טיול יום הולדת 50 לכרמית" },
   { yt: "BxfpwJw5Umc", caption: "טיול לפטרה – יום הולדת 50 לכרמית" }
 ];
