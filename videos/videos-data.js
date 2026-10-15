@@ -16,7 +16,7 @@ window.siteVideos = [
   { yt: "U6i2a68HNyA", caption: "רותי מלמדת את שחר להכין סופגניות, חנוכה 2023" },
   { yt: "zf0pv9Zi4rQ", caption: "רותי מלמדת את רתם, פסח 2024" },
   { yt: "d3eA_XMadT8", caption: "רותי מספרת לרתם ולמיכל על החיים, 3.10.2025" },
-  { file: "ruti-grandchildren-2.mp4", v: 2, caption: "רותי עם הנכדות, 3.10.2025" },
+  { yt: "MVKJoX2Ej5U", caption: "רותי מדברת עם מיכל ומספרת, 3.10.2025" },
   { yt: "vn1JdltYcJc", caption: "הפרידה מהנכדים, 3.10.2025" },
   { yt: "VKS66kcg_e0", caption: "הנשיא שמעון פרס נפרד משי בן אליהו" },
   { yt: "DybjZ046z-I", caption: "השופט אליקים רובינשטיין נפרד משי בן אליהו" },
