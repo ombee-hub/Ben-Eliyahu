@@ -12,7 +12,7 @@ window.siteVideos = [
   { file: "ruti-livingroom-2023.mp4", v: 2, caption: "רותי בסלון ביתה, פברואר 2023" },
   { yt: "h8cyHoFIdT0", caption: "רותי מספרת אצל רתם, מרץ 2023 – חלק א'" },
   { yt: "TqUVEDzxBqc", caption: "רותי מספרת אצל רתם, מרץ 2023 – חלק ב'" },
-  { file: "ruti-home-2023-3.mp4", v: 2, caption: "רותי מספרת אצל רתם, מרץ 2023 – חלק ג'" },
+  { yt: "eFOfEyl_jXY", caption: "רותי מספרת אצל רתם, מרץ 2023 – חלק ג'" },
   { yt: "U6i2a68HNyA", caption: "רותי מלמדת את שחר להכין סופגניות, חנוכה 2023" },
   { yt: "zf0pv9Zi4rQ", caption: "רותי מלמדת את רתם, פסח 2024" },
   { yt: "d3eA_XMadT8", caption: "רותי מספרת לרתם ולמיכל על החיים, 3.10.2025" },
