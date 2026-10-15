@@ -15,7 +15,7 @@ window.siteVideos = [
   { file: "ruti-home-2023-3.mp4", v: 2, caption: "רותי מספרת אצל רתם, מרץ 2023 – חלק ג'" },
   { yt: "U6i2a68HNyA", caption: "רותי מלמדת את שחר להכין סופגניות, חנוכה 2023" },
   { yt: "zf0pv9Zi4rQ", caption: "רותי מלמדת את רתם, פסח 2024" },
-  { file: "ruti-grandchildren-1.mp4", v: 2, caption: "רותי מוקפת במשפחה, 3.10.2025" },
+  { yt: "d3eA_XMadT8", caption: "רותי מספרת לרתם ולמיכל על החיים, 3.10.2025" },
   { file: "ruti-grandchildren-2.mp4", v: 2, caption: "רותי עם הנכדות, 3.10.2025" },
   { yt: "vn1JdltYcJc", caption: "הפרידה מהנכדים, 3.10.2025" },
   { yt: "VKS66kcg_e0", caption: "הנשיא שמעון פרס נפרד משי בן אליהו" },
