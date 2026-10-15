@@ -84,7 +84,7 @@
         if (v.yt) {
           media = '<iframe src="https://www.youtube-nocookie.com/embed/' + encodeURIComponent(v.yt) + '?rel=0" title="' + (v.caption || '') + '" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';
         } else {
-          media = '<video controls preload="metadata" playsinline>'
+          media = '<video controls preload="metadata" playsinline poster="videos/posters/' + encodeURIComponent(v.file.replace(/\.mp4$/, '.webp')) + '">'
             + '<source src="videos/' + encodeURIComponent(v.file) + (v.v ? '?v=' + v.v : '') + '" type="video/mp4">'
             + 'הדפדפן שלך אינו תומך בניגון וידאו.'
             + '</video>';
