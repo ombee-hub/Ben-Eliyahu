@@ -60,7 +60,7 @@ window.galleryPhotos = [
 
   // משפחה וזיכרון
   { file: "meirka-moshav-event.webp", caption: "מאירקה באירוע במושב" },
-  { file: "shai-hagi-ziv-wedding.webp", caption: "שי וחגי בחתונת זיו" },
+  { file: "shai-hagi-ziv-wedding.webp", v: 2, caption: "שי וחגי בחתונת זיו" },
   { file: "dudu-ben-eliyahu.webp", caption: "דודו בן אליהו" },
   { file: "hadas-ben-eliyahu.webp", caption: "הדס בן אליהו" },
   { file: "omri-concert-2009.webp", caption: "בקונצרט של עמרי, יולי 2009" },
