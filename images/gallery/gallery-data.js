@@ -100,7 +100,7 @@ window.galleryPhotos = [
   { file: "gan-tamar-2013.webp", caption: "גן תמר, 2013" },
   { file: "shai-ruti-sugarloaf.webp", caption: "שי ורותי בהר הסוכר" },
   { file: "shai-ruti-bench.webp", caption: "שי ורותי על ספסל בגן" },
-  { file: "shai-loving-hug.webp", caption: "חיבוק אוהב" },
+  { file: "shai-loving-hug.webp", v: 2, caption: "חיבוק אוהב" },
   { file: "shai-street.webp", caption: "שי בן אליהו" },
   { file: "shai-portrait-3.webp", caption: "שי בן אליהו" },
   { file: "shai-dudu-hadas-bikes.webp", caption: "שי, דודו והדס על אופניים" },
