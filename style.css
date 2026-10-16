@@ -2619,3 +2619,6 @@ html.a11y-saturation-high { filter: saturate(1.7); }
 /* YouTube embeds in video cards */
 .video-card iframe { display: block; width: 100%; aspect-ratio: 16 / 9; height: auto; border: 0; background: #000; }
 .videos-page .home-video iframe { flex: none; }
+
+/* Contact button pinned to the far left of the navbar */
+.nav-links .nav-contact { margin-inline-start: auto; }
