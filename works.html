@@ -89,7 +89,7 @@
         if (!grid || !items || !items.length) return;
         grid.innerHTML = items.map(function(p, i){
           var cap = p.caption || '';
-          return '<div class="phi" role="button" tabindex="0" data-index="' + i + '" aria-label="הצגה מוגדלת: ' + cap + '"><div class="php"><img src="' + dir + encodeURIComponent(p.file) + '" alt="' + cap + '" loading="lazy" decoding="async"></div><div class="phc">' + cap + '</div></div>';
+          return '<div class="phi" role="button" tabindex="0" data-index="' + i + '" aria-label="הצגה מוגדלת: ' + cap + '"><div class="php"><img src="' + dir + 'thumbs/' + encodeURIComponent(p.file) + '" data-full="' + dir + encodeURIComponent(p.file) + '" alt="' + cap + '" loading="lazy" decoding="async"></div><div class="phc">' + cap + '</div></div>';
         }).join('');
       }
       fill('sculptGrid', window.shaiSculptures, 'images/works/');
