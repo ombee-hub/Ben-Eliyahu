@@ -99,7 +99,7 @@
       if (!grid || !songs.length) return;
       grid.innerHTML = songs.map(function(p, i){
         var cap = p.caption || "";
-        return '<div class="phi" role="button" tabindex="0" data-index="' + i + '" aria-label="הצגה מוגדלת: ' + cap + '"><div class="php"><img src="images/songs/thumbs/' + encodeURIComponent(p.file) + '" data-full="images/songs/' + encodeURIComponent(p.file) + (p.v ? '?v=' + p.v : '') + '" alt="' + cap + '" loading="lazy" decoding="async"></div><div class="phc">' + cap + '</div></div>';
+        return '<div class="phi" role="button" tabindex="0" data-index="' + i + '" aria-label="הצגה מוגדלת: ' + cap + '"><div class="php"><img src="images/songs/' + encodeURIComponent(p.file) + (p.v ? '?v=' + p.v : '') + '" alt="' + cap + '" loading="lazy" decoding="async"></div><div class="phc">' + cap + '</div></div>';
       }).join("");
     })();
   </script>
