@@ -11,3 +11,6 @@ videos/ruti-interview.mp4
 
 # Local-only archive, never deployed or committed
 local-archive/
+
+# Local marker: last full-ZIP baseline commit
+.deploy-baseline
