@@ -8,3 +8,6 @@ Thumbs.db
 
 # Too large for GitHub (100MB limit) – deployed via ZIP only
 videos/ruti-interview.mp4
+
+# Local-only archive, never deployed or committed
+local-archive/

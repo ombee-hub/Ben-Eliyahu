@@ -5,7 +5,6 @@ window.siteVideos = [
   { yt: "rexjUP2Jl0Q", caption: "\"בן גוריון של הערבה\" – על שי בן אליהו" },
   { yt: "zQA8lQK9hXU", caption: "הערבה" },
   { yt: "XYMTi1GuG0o", caption: "רותי עם חברים" },
-  { file: "ruti-interview.mp4", v: 2, caption: "ראיון עם רותי בן אליהו" },
   { yt: "cjPn53-jS2A", caption: "רותי בן אליהו – מתוך ערוץ הערבה" },
   { yt: "42hG1zdEVes", caption: "\"יש מי שכולו אהבה\" ביום הולדת 50 לרותי – מילים: שי בן אליהו, בביצוע בועז הורוביץ" },
   { yt: "tkjet1Y5PdY", caption: "רותי מכינה לביבות בבית של רתם, ינואר 2023" },
