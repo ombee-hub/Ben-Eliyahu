@@ -78,7 +78,7 @@ window.galleryPhotos = [
   { file: "shai-portrait.webp", caption: "שי בן אליהו" },
   { file: "shai-75th-birthday.webp", caption: "יום הולדת 75 לשי, 1.3.2010" },
   { file: "shai-ruti-grandchildren.webp", caption: "שי ורותי עם הנכדים בעין יהב" },
-  { file: "shai-ofer.webp", caption: "שי ועופר" },
+  { file: "shai-ofer.webp", caption: "שי והנכד עופר" },
   { file: "shai-shlomo.webp", caption: "שי ושלמה" },
   { file: "shai-shahar-birthday-2008.webp", caption: "שי ביום ההולדת של שחר, אוקטובר 2008" },
   { file: "sara-baby-shai.webp", caption: "שרה עם שי התינוק" },
