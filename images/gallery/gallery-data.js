@@ -125,7 +125,7 @@ window.galleryPhotos = [
   { file: "williamsburg-1987.webp", caption: "וויליאמסבורג, וירג'יניה 1987" },
   { file: "longwood-park-1987.webp", caption: "פארק לונגווד, 1987" },
   { file: "june-1986.webp", caption: "יוני 1986" },
-  { file: "saba-shai-2008.webp", caption: "סבא שי, אפריל 2008" },
+  { file: "saba-shai-2008.webp", caption: "סבא שי והנכדה שחר, אפריל 2008" },
   { file: "family-album-2001.webp", caption: "מתוך האלבום המשפחתי, 2001" },
   { file: "dudu-portrait.webp", caption: "דודו בן אליהו" },
   { file: "ruti-hadas-rotem-usa.webp", caption: "רותי, הדס ורתם בארצות הברית" },
