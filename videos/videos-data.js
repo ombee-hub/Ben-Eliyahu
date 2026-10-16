@@ -23,7 +23,7 @@ window.siteVideos = [
   { yt: "wXnlPCe9mAU", caption: "השיר \"חיים\" – מתוך ערב ההוקרה לשי" },
   { file: "wadi-rum-road.mp4", caption: "טיול המשפחה בירדן – בכניסה לוואדי ראם" },
   { yt: "OA-aLXaAVJk", caption: "מסע הג'יפים בוואדי ראם – טיול יום הולדת 50 לכרמית" },
-  { file: "wadi-rum-stop.mp4", v: 2, caption: "טיול המשפחה בירדן – עצירה בוואדי ראם" },
+  { yt: "-3Pa8p1Jb1Y", caption: "עצירה בוואדי ראם – טיול יום הולדת 50 לכרמית" },
   { file: "wadi-rum-rocks.mp4", caption: "טיול המשפחה בירדן – על הסלעים בוואדי ראם" },
   { yt: "ydOD2Ji5ulQ", caption: "המאהל הבדואי בוואדי ראם – טיול יום הולדת 50 לכרמית" },
   { yt: "BxfpwJw5Umc", caption: "טיול לפטרה – יום הולדת 50 לכרמית" }
