@@ -50,6 +50,7 @@ window.galleryPhotos = [
   { file: "ruti-shai-jordan.webp", caption: "רותי ושי בירדן" },
   { file: "shai-jordan-1996.webp", caption: "שי בירדן, 1996" },
   { file: "elyakim-rubinstein.webp", caption: "השופט אליקים רובינשטיין" },
+  { file: "family-rubinstein-visit.webp", caption: "המשפחה בביקור אצל השופט אליקים רובינשטיין" },
 
   // השיטפונות בערבה
   { file: "arava-stream-flood.webp", caption: "שיטפון בנחל ערבה – אדם במים השוצפים" },
@@ -97,7 +98,9 @@ window.galleryPhotos = [
   { file: "indonesia-1996-3.webp", caption: "אינדונזיה, 28.7.1996" },
   { file: "australia-1.webp", caption: "באוסטרליה" },
   { file: "australia-2.webp", caption: "באוסטרליה" },
+  { file: "shai-parrot-australia-1987.webp", caption: "שי והתוכי, אוסטרליה – ינואר 1987" },
   { file: "gan-tamar-2013.webp", caption: "גן תמר, 2013" },
+  { file: "ruti-yahnuk-dam.webp", caption: "רותי ופריחת יחנוק המדבר ליד הסכר" },
   { file: "shai-ruti-sugarloaf.webp", caption: "שי ורותי בהר הסוכר" },
   { file: "shai-ruti-bench.webp", caption: "שי ורותי על ספסל בגן" },
   { file: "shai-loving-hug.webp", v: 2, caption: "חיבוק אוהב" },
