@@ -2394,3 +2394,19 @@ footer::after {
 
 /* Contact button pinned to the far left of the navbar */
 .nav-links .nav-contact { margin-inline-start: auto; }
+
+/* ===== Legal pages (accessibility / privacy statements) ===== */
+.legal-date { color: var(--rust); font-weight: 700; font-size: 0.85rem; margin-bottom: 0.6rem; }
+.legal-toc { background: var(--sand); border: 1px solid rgba(var(--gold-rgb), 0.35); border-radius: var(--radius); padding: 1.1rem 1.4rem; margin: 1.5rem 0 2rem; }
+.legal-toc strong { color: var(--dark); display: block; margin-bottom: 0.5rem; }
+.legal-toc ol { margin: 0; padding-right: 1.2rem; }
+.legal-toc li { margin-bottom: 0.3rem; }
+.legal-toc a { color: var(--rust); font-weight: 600; text-decoration: none; }
+.legal-toc a:hover { text-decoration: underline; }
+.legal-checklist { list-style: none; padding-right: 0 !important; }
+.legal-checklist li { position: relative; padding-right: 1.7rem; margin-bottom: 0.45rem; }
+.legal-checklist li::before { content: "✓"; position: absolute; right: 0; color: var(--gold); font-weight: 800; }
+.legal-contact { display: grid; gap: 0.6rem; background: #fffdf7; border: 1px solid rgba(var(--gold-rgb), 0.3); border-right: 4px solid var(--gold); border-radius: 10px; padding: 1.1rem 1.3rem; margin: 1.2rem 0; }
+.legal-contact > div { display: flex; gap: 0.8rem; align-items: baseline; }
+.legal-contact strong { color: var(--dark); min-width: 90px; }
+.legal-contact a { color: var(--rust); font-weight: 700; }
